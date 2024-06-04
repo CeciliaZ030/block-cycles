@@ -1,0 +1,571 @@
+[2m2024-06-03T03:37:30.422209Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 915552
+[2m2024-06-03T03:37:31.948091Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m1.48s [3mtime.idle[0m[2m=[0m2.79µs
+[2m2024-06-03T03:37:32.002403Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 47420
+[2m2024-06-03T03:37:32.095375Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m91.1ms [3mtime.idle[0m[2m=[0m2.60µs
+[2m2024-06-03T03:37:32.153102Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 52599
+[2m2024-06-03T03:37:32.255529Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m99.9ms [3mtime.idle[0m[2m=[0m2.10µs
+[2m2024-06-03T03:37:32.306142Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 44668
+[2m2024-06-03T03:37:32.608285Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m300ms [3mtime.idle[0m[2m=[0m2.26µs
+[2m2024-06-03T03:37:32.660745Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 44197
+[2m2024-06-03T03:37:33.507830Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m843ms [3mtime.idle[0m[2m=[0m2.41µs
+[2m2024-06-03T03:37:33.508028Z[0m [32m INFO[0m [1minitialize prover[0m: close [3mtime.busy[0m[2m=[0m4.96s [3mtime.idle[0m[2m=[0m2.36µs
+[2m2024-06-03T03:37:34.861291Z[0m [32m INFO[0m [1msetup[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m1.30s [3mtime.idle[0m[2m=[0m3.00µs
+[2m2024-06-03T03:37:34.867900Z[0m [32m INFO[0m [1msetup[0m: close [3mtime.busy[0m[2m=[0m1.36s [3mtime.idle[0m[2m=[0m1.86µs
+[2m2024-06-03T03:37:34.924895Z[0m [32m INFO[0m [1mexecute[0m: loading memory image
+[2m2024-06-03T03:37:34.955691Z[0m [32m INFO[0m [1mexecute[0m: starting execution
+[2m2024-06-03T03:37:34.955709Z[0m [32m INFO[0m [1mexecute[0m: clk = 0 pc = 0x290e60    
+[2m2024-06-03T03:37:35.466454Z[0m [32m INFO[0m [1mexecute[0m: clk = 10000000 pc = 0x290bd8    
+stdout: initialize_db Account touch 69
+stdout: initialize_db Storage touch 5
+[2m2024-06-03T03:37:35.783091Z[0m [32m INFO[0m [1mexecute[0m: └╴8,431,125 cycles    
+[2m2024-06-03T03:37:35.783780Z[0m [32m INFO[0m [1mexecute[0m: └╴14,475 cycles    
+stdout: block no 205326
+stdout: spec_id: SHANGHAI
+[2m2024-06-03T03:37:35.800375Z[0m [32m INFO[0m [1mexecute[0m: clk = 20000000 pc = 0x290e40    
+[2m2024-06-03T03:37:36.092959Z[0m [32m INFO[0m [1mexecute[0m: clk = 30000000 pc = 0x29a59c    
+[2m2024-06-03T03:37:36.465333Z[0m [32m INFO[0m [1mexecute[0m: clk = 40000000 pc = 0x3adcb4    
+stdout: total Txs: 106
+stdout: "\rprocessing tx 0/106..."
+[2m2024-06-03T03:37:36.554503Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,762 cycles    
+[2m2024-06-03T03:37:37.009619Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:37.009651Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,316 cycles    
+[2m2024-06-03T03:37:37.075540Z[0m [32m INFO[0m [1mexecute[0m: │ └╴1,830,075 cycles    
+stdout: "\rprocessing tx 1/106..."
+[2m2024-06-03T03:37:37.077235Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴10,771 cycles    
+[2m2024-06-03T03:37:37.545179Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:37.545221Z[0m [32m INFO[0m [1mexecute[0m: │ └╴230,325 cycles    
+[2m2024-06-03T03:37:37.545735Z[0m [32m INFO[0m [1mexecute[0m: │ └╴9,466 cycles    
+stdout: "\rprocessing tx 2/106..."
+[2m2024-06-03T03:37:37.546239Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,905 cycles    
+[2m2024-06-03T03:37:37.999138Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:37.999168Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,459 cycles    
+[2m2024-06-03T03:37:37.999458Z[0m [32m INFO[0m [1mexecute[0m: │ └╴4,909 cycles    
+stdout: "\rprocessing tx 3/106..."
+[2m2024-06-03T03:37:38.002585Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴83,711 cycles    
+[2m2024-06-03T03:37:38.457299Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:38.457329Z[0m [32m INFO[0m [1mexecute[0m: │ └╴303,265 cycles    
+[2m2024-06-03T03:37:38.459715Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,245 cycles    
+stdout: "\rprocessing tx 4/106..."
+[2m2024-06-03T03:37:38.462821Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴83,407 cycles    
+[2m2024-06-03T03:37:38.919285Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:38.919316Z[0m [32m INFO[0m [1mexecute[0m: │ └╴302,961 cycles    
+[2m2024-06-03T03:37:38.921679Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,053 cycles    
+stdout: "\rprocessing tx 5/106..."
+[2m2024-06-03T03:37:38.922468Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴13,486 cycles    
+[2m2024-06-03T03:37:39.387823Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:39.387864Z[0m [32m INFO[0m [1mexecute[0m: │ └╴233,040 cycles    
+[2m2024-06-03T03:37:39.388417Z[0m [32m INFO[0m [1mexecute[0m: │ └╴10,660 cycles    
+stdout: "\rprocessing tx 6/106..."
+[2m2024-06-03T03:37:39.389220Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴12,709 cycles    
+[2m2024-06-03T03:37:39.845336Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:39.845369Z[0m [32m INFO[0m [1mexecute[0m: │ └╴232,263 cycles    
+[2m2024-06-03T03:37:39.845915Z[0m [32m INFO[0m [1mexecute[0m: │ └╴10,660 cycles    
+stdout: "\rprocessing tx 7/106..."
+[2m2024-06-03T03:37:39.846723Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴13,476 cycles    
+[2m2024-06-03T03:37:40.300757Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:40.300788Z[0m [32m INFO[0m [1mexecute[0m: │ └╴233,030 cycles    
+[2m2024-06-03T03:37:40.301317Z[0m [32m INFO[0m [1mexecute[0m: │ └╴10,660 cycles    
+stdout: "\rprocessing tx 8/106..."
+[2m2024-06-03T03:37:40.301812Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,325 cycles    
+[2m2024-06-03T03:37:40.756796Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:40.756828Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,879 cycles    
+[2m2024-06-03T03:37:40.757125Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,100 cycles    
+stdout: "\rprocessing tx 9/106..."
+[2m2024-06-03T03:37:40.757830Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴10,520 cycles    
+[2m2024-06-03T03:37:41.212161Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:41.212191Z[0m [32m INFO[0m [1mexecute[0m: │ └╴230,074 cycles    
+[2m2024-06-03T03:37:41.212650Z[0m [32m INFO[0m [1mexecute[0m: │ └╴8,748 cycles    
+stdout: "\rprocessing tx 10/106..."
+[2m2024-06-03T03:37:41.213280Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴8,329 cycles    
+[2m2024-06-03T03:37:41.679346Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:41.679396Z[0m [32m INFO[0m [1mexecute[0m: │ └╴227,883 cycles    
+[2m2024-06-03T03:37:41.679813Z[0m [32m INFO[0m [1mexecute[0m: │ └╴7,404 cycles    
+stdout: "\rprocessing tx 11/106..."
+[2m2024-06-03T03:37:41.680327Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,488 cycles    
+[2m2024-06-03T03:37:42.134999Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:42.135031Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,042 cycles    
+[2m2024-06-03T03:37:42.135339Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,292 cycles    
+stdout: "\rprocessing tx 12/106..."
+[2m2024-06-03T03:37:42.136037Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴10,040 cycles    
+[2m2024-06-03T03:37:42.591545Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:42.591582Z[0m [32m INFO[0m [1mexecute[0m: │ └╴229,594 cycles    
+[2m2024-06-03T03:37:42.592039Z[0m [32m INFO[0m [1mexecute[0m: │ └╴8,778 cycles    
+stdout: "\rprocessing tx 13/106..."
+[2m2024-06-03T03:37:42.592532Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,974 cycles    
+[2m2024-06-03T03:37:43.048247Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:43.048276Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,528 cycles    
+[2m2024-06-03T03:37:43.048583Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,100 cycles    
+stdout: "\rprocessing tx 14/106..."
+[2m2024-06-03T03:37:43.049069Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,022 cycles    
+[2m2024-06-03T03:37:43.504147Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:43.504177Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,576 cycles    
+[2m2024-06-03T03:37:43.504480Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,100 cycles    
+stdout: "\rprocessing tx 15/106..."
+[2m2024-06-03T03:37:43.507274Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴78,086 cycles    
+[2m2024-06-03T03:37:43.961669Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:43.961704Z[0m [32m INFO[0m [1mexecute[0m: │ └╴297,640 cycles    
+[2m2024-06-03T03:37:43.964143Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,629 cycles    
+stdout: "\rprocessing tx 16/106..."
+[2m2024-06-03T03:37:43.966984Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴75,802 cycles    
+[2m2024-06-03T03:37:44.423611Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:44.423643Z[0m [32m INFO[0m [1mexecute[0m: │ └╴295,356 cycles    
+[2m2024-06-03T03:37:44.425958Z[0m [32m INFO[0m [1mexecute[0m: │ └╴53,093 cycles    
+stdout: "\rprocessing tx 17/106..."
+[2m2024-06-03T03:37:44.428932Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴81,139 cycles    
+[2m2024-06-03T03:37:44.885047Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,288 cycles    
+[2m2024-06-03T03:37:44.885082Z[0m [32m INFO[0m [1mexecute[0m: │ └╴300,702 cycles    
+[2m2024-06-03T03:37:44.887372Z[0m [32m INFO[0m [1mexecute[0m: │ └╴52,975 cycles    
+stdout: "\rprocessing tx 18/106..."
+[2m2024-06-03T03:37:44.890441Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴83,935 cycles    
+[2m2024-06-03T03:37:45.345964Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:45.345997Z[0m [32m INFO[0m [1mexecute[0m: │ └╴303,489 cycles    
+[2m2024-06-03T03:37:45.348407Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,436 cycles    
+stdout: "\rprocessing tx 19/106..."
+[2m2024-06-03T03:37:45.348954Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴5,527 cycles    
+[2m2024-06-03T03:37:45.804505Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,288 cycles    
+[2m2024-06-03T03:37:45.804550Z[0m [32m INFO[0m [1mexecute[0m: │ └╴225,090 cycles    
+[2m2024-06-03T03:37:45.804881Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,935 cycles    
+[2m2024-06-03T03:37:45.805072Z[0m [32m INFO[0m [1mexecute[0m: clk = 50000000 pc = 0x3c6610    
+stdout: "\rprocessing tx 20/106..."
+[2m2024-06-03T03:37:45.805432Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴5,344 cycles    
+[2m2024-06-03T03:37:46.260743Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,288 cycles    
+[2m2024-06-03T03:37:46.260773Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,907 cycles    
+[2m2024-06-03T03:37:46.261090Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,935 cycles    
+stdout: "\rprocessing tx 21/106..."
+[2m2024-06-03T03:37:46.263912Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴77,180 cycles    
+[2m2024-06-03T03:37:46.718708Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:46.718740Z[0m [32m INFO[0m [1mexecute[0m: │ └╴296,734 cycles    
+[2m2024-06-03T03:37:46.721176Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,052 cycles    
+stdout: "\rprocessing tx 22/106..."
+[2m2024-06-03T03:37:46.724270Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴84,543 cycles    
+[2m2024-06-03T03:37:47.180402Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:47.180433Z[0m [32m INFO[0m [1mexecute[0m: │ └╴304,097 cycles    
+[2m2024-06-03T03:37:47.182818Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,820 cycles    
+stdout: "\rprocessing tx 23/106..."
+[2m2024-06-03T03:37:47.183305Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,597 cycles    
+[2m2024-06-03T03:37:47.638127Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,288 cycles    
+[2m2024-06-03T03:37:47.638158Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,160 cycles    
+[2m2024-06-03T03:37:47.638439Z[0m [32m INFO[0m [1mexecute[0m: │ └╴4,975 cycles    
+stdout: "\rprocessing tx 24/106..."
+[2m2024-06-03T03:37:47.641545Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴83,935 cycles    
+[2m2024-06-03T03:37:48.096131Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:48.096161Z[0m [32m INFO[0m [1mexecute[0m: │ └╴303,489 cycles    
+[2m2024-06-03T03:37:48.098531Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,436 cycles    
+stdout: "\rprocessing tx 25/106..."
+[2m2024-06-03T03:37:48.101897Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴84,562 cycles    
+[2m2024-06-03T03:37:48.557490Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:48.557520Z[0m [32m INFO[0m [1mexecute[0m: │ └╴304,116 cycles    
+[2m2024-06-03T03:37:48.559939Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,820 cycles    
+stdout: "\rprocessing tx 26/106..."
+[2m2024-06-03T03:37:48.563084Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴83,334 cycles    
+[2m2024-06-03T03:37:49.017347Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:49.017378Z[0m [32m INFO[0m [1mexecute[0m: │ └╴302,888 cycles    
+[2m2024-06-03T03:37:49.019730Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,052 cycles    
+stdout: "\rprocessing tx 27/106..."
+[2m2024-06-03T03:37:49.022650Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴78,904 cycles    
+[2m2024-06-03T03:37:49.477390Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:49.477418Z[0m [32m INFO[0m [1mexecute[0m: │ └╴298,458 cycles    
+[2m2024-06-03T03:37:49.479845Z[0m [32m INFO[0m [1mexecute[0m: │ └╴55,204 cycles    
+stdout: "\rprocessing tx 28/106..."
+[2m2024-06-03T03:37:49.482952Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴84,239 cycles    
+[2m2024-06-03T03:37:49.939596Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:49.939625Z[0m [32m INFO[0m [1mexecute[0m: │ └╴303,793 cycles    
+[2m2024-06-03T03:37:49.942005Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,628 cycles    
+stdout: "\rprocessing tx 29/106..."
+[2m2024-06-03T03:37:49.945145Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴85,496 cycles    
+[2m2024-06-03T03:37:50.401072Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:50.401103Z[0m [32m INFO[0m [1mexecute[0m: │ └╴305,050 cycles    
+[2m2024-06-03T03:37:50.403552Z[0m [32m INFO[0m [1mexecute[0m: │ └╴55,396 cycles    
+stdout: "\rprocessing tx 30/106..."
+[2m2024-06-03T03:37:50.406596Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴83,964 cycles    
+[2m2024-06-03T03:37:50.861131Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:50.861162Z[0m [32m INFO[0m [1mexecute[0m: │ └╴303,518 cycles    
+[2m2024-06-03T03:37:50.863525Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,436 cycles    
+stdout: "\rprocessing tx 31/106..."
+[2m2024-06-03T03:37:50.866445Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴78,042 cycles    
+[2m2024-06-03T03:37:51.322659Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:51.322689Z[0m [32m INFO[0m [1mexecute[0m: │ └╴297,596 cycles    
+[2m2024-06-03T03:37:51.325110Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,628 cycles    
+stdout: "\rprocessing tx 32/106..."
+[2m2024-06-03T03:37:51.328233Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴84,543 cycles    
+[2m2024-06-03T03:37:51.782264Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:51.782293Z[0m [32m INFO[0m [1mexecute[0m: │ └╴304,097 cycles    
+[2m2024-06-03T03:37:51.784676Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,820 cycles    
+stdout: "\rprocessing tx 33/106..."
+[2m2024-06-03T03:37:51.787761Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴84,562 cycles    
+[2m2024-06-03T03:37:52.242704Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:52.242734Z[0m [32m INFO[0m [1mexecute[0m: │ └╴304,116 cycles    
+[2m2024-06-03T03:37:52.245161Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,820 cycles    
+stdout: "\rprocessing tx 34/106..."
+[2m2024-06-03T03:37:52.245754Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴6,823 cycles    
+[2m2024-06-03T03:37:52.700874Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,288 cycles    
+[2m2024-06-03T03:37:52.700906Z[0m [32m INFO[0m [1mexecute[0m: │ └╴226,386 cycles    
+[2m2024-06-03T03:37:52.701261Z[0m [32m INFO[0m [1mexecute[0m: │ └╴6,703 cycles    
+stdout: "\rprocessing tx 35/106..."
+[2m2024-06-03T03:37:52.701755Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,034 cycles    
+[2m2024-06-03T03:37:53.156637Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,288 cycles    
+[2m2024-06-03T03:37:53.156667Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,597 cycles    
+[2m2024-06-03T03:37:53.156960Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,167 cycles    
+stdout: "\rprocessing tx 36/106..."
+[2m2024-06-03T03:37:53.157485Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴5,267 cycles    
+[2m2024-06-03T03:37:53.614843Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:53.614873Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,821 cycles    
+[2m2024-06-03T03:37:53.615197Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,868 cycles    
+stdout: "\rprocessing tx 37/106..."
+[2m2024-06-03T03:37:53.615680Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,850 cycles    
+[2m2024-06-03T03:37:54.071557Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:54.071586Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,404 cycles    
+[2m2024-06-03T03:37:54.071870Z[0m [32m INFO[0m [1mexecute[0m: │ └╴4,881 cycles    
+stdout: "\rprocessing tx 38/106..."
+[2m2024-06-03T03:37:54.072564Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴10,040 cycles    
+[2m2024-06-03T03:37:54.527202Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:54.527231Z[0m [32m INFO[0m [1mexecute[0m: │ └╴229,594 cycles    
+[2m2024-06-03T03:37:54.527687Z[0m [32m INFO[0m [1mexecute[0m: │ └╴8,748 cycles    
+stdout: "\rprocessing tx 39/106..."
+[2m2024-06-03T03:37:54.528234Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴5,645 cycles    
+[2m2024-06-03T03:37:54.983698Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:54.983732Z[0m [32m INFO[0m [1mexecute[0m: │ └╴225,199 cycles    
+[2m2024-06-03T03:37:54.984063Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,868 cycles    
+stdout: "\rprocessing tx 40/106..."
+[2m2024-06-03T03:37:54.984573Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,974 cycles    
+[2m2024-06-03T03:37:55.439961Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:55.439992Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,528 cycles    
+[2m2024-06-03T03:37:55.440299Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,092 cycles    
+stdout: "\rprocessing tx 41/106..."
+[2m2024-06-03T03:37:55.441008Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴10,040 cycles    
+[2m2024-06-03T03:37:55.895635Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:55.895669Z[0m [32m INFO[0m [1mexecute[0m: │ └╴229,594 cycles    
+[2m2024-06-03T03:37:55.896122Z[0m [32m INFO[0m [1mexecute[0m: │ └╴8,748 cycles    
+stdout: "\rprocessing tx 42/106..."
+[2m2024-06-03T03:37:55.896883Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴11,739 cycles    
+[2m2024-06-03T03:37:56.351350Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:56.351379Z[0m [32m INFO[0m [1mexecute[0m: │ └╴231,293 cycles    
+[2m2024-06-03T03:37:56.351865Z[0m [32m INFO[0m [1mexecute[0m: │ └╴9,516 cycles    
+stdout: "\rprocessing tx 43/106..."
+[2m2024-06-03T03:37:56.352389Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴5,030 cycles    
+[2m2024-06-03T03:37:56.808090Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,288 cycles    
+[2m2024-06-03T03:37:56.808121Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,593 cycles    
+[2m2024-06-03T03:37:56.808430Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,743 cycles    
+stdout: "\rprocessing tx 44/106..."
+[2m2024-06-03T03:37:56.808924Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,850 cycles    
+[2m2024-06-03T03:37:57.263949Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:57.263979Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,404 cycles    
+[2m2024-06-03T03:37:57.264266Z[0m [32m INFO[0m [1mexecute[0m: │ └╴4,911 cycles    
+stdout: "\rprocessing tx 45/106..."
+[2m2024-06-03T03:37:57.264971Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴10,040 cycles    
+[2m2024-06-03T03:37:57.718876Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:57.718905Z[0m [32m INFO[0m [1mexecute[0m: │ └╴229,594 cycles    
+[2m2024-06-03T03:37:57.719351Z[0m [32m INFO[0m [1mexecute[0m: │ └╴8,748 cycles    
+stdout: "\rprocessing tx 46/106..."
+[2m2024-06-03T03:37:57.719860Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,401 cycles    
+[2m2024-06-03T03:37:58.175383Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:58.175412Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,955 cycles    
+[2m2024-06-03T03:37:58.175720Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,292 cycles    
+stdout: "\rprocessing tx 47/106..."
+[2m2024-06-03T03:37:58.176410Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴10,111 cycles    
+[2m2024-06-03T03:37:58.632478Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,288 cycles    
+[2m2024-06-03T03:37:58.632509Z[0m [32m INFO[0m [1mexecute[0m: │ └╴229,674 cycles    
+[2m2024-06-03T03:37:58.632946Z[0m [32m INFO[0m [1mexecute[0m: │ └╴8,623 cycles    
+stdout: "\rprocessing tx 48/106..."
+[2m2024-06-03T03:37:58.633474Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴5,140 cycles    
+[2m2024-06-03T03:37:59.088520Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:37:59.088554Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,694 cycles    
+[2m2024-06-03T03:37:59.088873Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,676 cycles    
+stdout: "\rprocessing tx 49/106..."
+[2m2024-06-03T03:37:59.089339Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,577 cycles    
+[2m2024-06-03T03:37:59.543166Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,288 cycles    
+[2m2024-06-03T03:37:59.543198Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,140 cycles    
+[2m2024-06-03T03:37:59.543488Z[0m [32m INFO[0m [1mexecute[0m: │ └╴4,975 cycles    
+stdout: "\rprocessing tx 50/106..."
+[2m2024-06-03T03:37:59.544111Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴7,243 cycles    
+[2m2024-06-03T03:38:00.000123Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,288 cycles    
+[2m2024-06-03T03:38:00.000160Z[0m [32m INFO[0m [1mexecute[0m: │ └╴226,806 cycles    
+[2m2024-06-03T03:38:00.000548Z[0m [32m INFO[0m [1mexecute[0m: │ └╴7,087 cycles    
+stdout: "\rprocessing tx 51/106..."
+[2m2024-06-03T03:38:00.001028Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,951 cycles    
+[2m2024-06-03T03:38:00.456567Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:00.456599Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,505 cycles    
+[2m2024-06-03T03:38:00.456899Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,092 cycles    
+stdout: "\rprocessing tx 52/106..."
+[2m2024-06-03T03:38:00.457441Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴5,645 cycles    
+[2m2024-06-03T03:38:00.911641Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:00.911671Z[0m [32m INFO[0m [1mexecute[0m: │ └╴225,199 cycles    
+[2m2024-06-03T03:38:00.911998Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,868 cycles    
+stdout: "\rprocessing tx 53/106..."
+[2m2024-06-03T03:38:00.912501Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,472 cycles    
+[2m2024-06-03T03:38:01.367202Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:01.367230Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,026 cycles    
+[2m2024-06-03T03:38:01.367543Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,292 cycles    
+stdout: "\rprocessing tx 54/106..."
+[2m2024-06-03T03:38:01.368157Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴7,696 cycles    
+[2m2024-06-03T03:38:01.824056Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:01.824086Z[0m [32m INFO[0m [1mexecute[0m: │ └╴227,250 cycles    
+[2m2024-06-03T03:38:01.824483Z[0m [32m INFO[0m [1mexecute[0m: │ └╴7,212 cycles    
+stdout: "\rprocessing tx 55/106..."
+[2m2024-06-03T03:38:01.824972Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,022 cycles    
+[2m2024-06-03T03:38:02.274333Z[0m [32m INFO[0m [1mexecute[0m: clk = 60000000 pc = 0x3a17f8    
+[2m2024-06-03T03:38:02.281069Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:02.281097Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,576 cycles    
+[2m2024-06-03T03:38:02.281391Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,100 cycles    
+stdout: "\rprocessing tx 56/106..."
+[2m2024-06-03T03:38:02.281904Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,496 cycles    
+[2m2024-06-03T03:38:02.736744Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:02.736777Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,050 cycles    
+[2m2024-06-03T03:38:02.737084Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,322 cycles    
+stdout: "\rprocessing tx 57/106..."
+[2m2024-06-03T03:38:02.740181Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴84,239 cycles    
+[2m2024-06-03T03:38:03.195271Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:03.195304Z[0m [32m INFO[0m [1mexecute[0m: │ └╴303,793 cycles    
+[2m2024-06-03T03:38:03.197711Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,628 cycles    
+stdout: "\rprocessing tx 58/106..."
+[2m2024-06-03T03:38:03.200882Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴82,390 cycles    
+[2m2024-06-03T03:38:03.656185Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:03.656229Z[0m [32m INFO[0m [1mexecute[0m: │ └╴301,944 cycles    
+[2m2024-06-03T03:38:03.658596Z[0m [32m INFO[0m [1mexecute[0m: │ └╴53,476 cycles    
+stdout: "\rprocessing tx 59/106..."
+[2m2024-06-03T03:38:03.661835Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴84,268 cycles    
+[2m2024-06-03T03:38:04.116284Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:04.116314Z[0m [32m INFO[0m [1mexecute[0m: │ └╴303,822 cycles    
+[2m2024-06-03T03:38:04.118723Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,628 cycles    
+stdout: "\rprocessing tx 60/106..."
+[2m2024-06-03T03:38:04.121666Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴78,042 cycles    
+[2m2024-06-03T03:38:04.578219Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:04.578264Z[0m [32m INFO[0m [1mexecute[0m: │ └╴297,596 cycles    
+[2m2024-06-03T03:38:04.580676Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,628 cycles    
+stdout: "\rprocessing tx 61/106..."
+[2m2024-06-03T03:38:04.583865Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴84,543 cycles    
+[2m2024-06-03T03:38:05.039005Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:05.039039Z[0m [32m INFO[0m [1mexecute[0m: │ └╴304,097 cycles    
+[2m2024-06-03T03:38:05.041445Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,820 cycles    
+stdout: "\rprocessing tx 62/106..."
+[2m2024-06-03T03:38:05.042149Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴9,592 cycles    
+[2m2024-06-03T03:38:05.497156Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,288 cycles    
+[2m2024-06-03T03:38:05.497191Z[0m [32m INFO[0m [1mexecute[0m: │ └╴229,155 cycles    
+[2m2024-06-03T03:38:05.497656Z[0m [32m INFO[0m [1mexecute[0m: │ └╴8,623 cycles    
+stdout: "\rprocessing tx 63/106..."
+[2m2024-06-03T03:38:05.498370Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴10,010 cycles    
+[2m2024-06-03T03:38:05.952603Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:05.952634Z[0m [32m INFO[0m [1mexecute[0m: │ └╴229,564 cycles    
+[2m2024-06-03T03:38:05.953091Z[0m [32m INFO[0m [1mexecute[0m: │ └╴8,740 cycles    
+stdout: "\rprocessing tx 64/106..."
+[2m2024-06-03T03:38:05.953752Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴8,640 cycles    
+[2m2024-06-03T03:38:06.409569Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:06.409601Z[0m [32m INFO[0m [1mexecute[0m: │ └╴228,194 cycles    
+[2m2024-06-03T03:38:06.410021Z[0m [32m INFO[0m [1mexecute[0m: │ └╴7,596 cycles    
+stdout: "\rprocessing tx 65/106..."
+[2m2024-06-03T03:38:06.413116Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴83,706 cycles    
+[2m2024-06-03T03:38:06.869078Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:06.869118Z[0m [32m INFO[0m [1mexecute[0m: │ └╴303,260 cycles    
+[2m2024-06-03T03:38:06.871510Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,444 cycles    
+stdout: "\rprocessing tx 66/106..."
+[2m2024-06-03T03:38:06.872152Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴8,025 cycles    
+[2m2024-06-03T03:38:07.327480Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:07.327512Z[0m [32m INFO[0m [1mexecute[0m: │ └╴227,579 cycles    
+[2m2024-06-03T03:38:07.327911Z[0m [32m INFO[0m [1mexecute[0m: │ └╴7,212 cycles    
+stdout: "\rprocessing tx 67/106..."
+[2m2024-06-03T03:38:07.328402Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,850 cycles    
+[2m2024-06-03T03:38:07.783933Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:07.783963Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,404 cycles    
+[2m2024-06-03T03:38:07.784245Z[0m [32m INFO[0m [1mexecute[0m: │ └╴4,881 cycles    
+stdout: "\rprocessing tx 68/106..."
+[2m2024-06-03T03:38:07.784743Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,014 cycles    
+[2m2024-06-03T03:38:08.239566Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:08.239595Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,568 cycles    
+[2m2024-06-03T03:38:08.239891Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,092 cycles    
+stdout: "\rprocessing tx 69/106..."
+[2m2024-06-03T03:38:08.240606Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴10,500 cycles    
+[2m2024-06-03T03:38:08.695582Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:08.695613Z[0m [32m INFO[0m [1mexecute[0m: │ └╴230,054 cycles    
+[2m2024-06-03T03:38:08.696059Z[0m [32m INFO[0m [1mexecute[0m: │ └╴8,748 cycles    
+stdout: "\rprocessing tx 70/106..."
+[2m2024-06-03T03:38:08.696601Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴5,444 cycles    
+[2m2024-06-03T03:38:09.162427Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:09.162474Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,998 cycles    
+[2m2024-06-03T03:38:09.162816Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,868 cycles    
+stdout: "\rprocessing tx 71/106..."
+[2m2024-06-03T03:38:09.163357Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴5,043 cycles    
+[2m2024-06-03T03:38:09.617093Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:09.617124Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,597 cycles    
+[2m2024-06-03T03:38:09.617436Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,484 cycles    
+stdout: "\rprocessing tx 72/106..."
+[2m2024-06-03T03:38:09.617970Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴5,122 cycles    
+[2m2024-06-03T03:38:10.073660Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:10.073692Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,676 cycles    
+[2m2024-06-03T03:38:10.074017Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,676 cycles    
+stdout: "\rprocessing tx 73/106..."
+[2m2024-06-03T03:38:10.074552Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴5,140 cycles    
+[2m2024-06-03T03:38:10.530154Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:10.530186Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,694 cycles    
+[2m2024-06-03T03:38:10.530510Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,676 cycles    
+stdout: "\rprocessing tx 74/106..."
+[2m2024-06-03T03:38:10.531015Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,425 cycles    
+[2m2024-06-03T03:38:10.993129Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:10.993173Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,979 cycles    
+[2m2024-06-03T03:38:10.993495Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,322 cycles    
+stdout: "\rprocessing tx 75/106..."
+[2m2024-06-03T03:38:10.994217Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴10,476 cycles    
+[2m2024-06-03T03:38:11.448931Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:11.448961Z[0m [32m INFO[0m [1mexecute[0m: │ └╴230,030 cycles    
+[2m2024-06-03T03:38:11.449415Z[0m [32m INFO[0m [1mexecute[0m: │ └╴8,748 cycles    
+stdout: "\rprocessing tx 76/106..."
+[2m2024-06-03T03:38:11.450308Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴14,161 cycles    
+[2m2024-06-03T03:38:11.906765Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:11.906795Z[0m [32m INFO[0m [1mexecute[0m: │ └╴233,715 cycles    
+[2m2024-06-03T03:38:11.907346Z[0m [32m INFO[0m [1mexecute[0m: │ └╴11,244 cycles    
+stdout: "\rprocessing tx 77/106..."
+[2m2024-06-03T03:38:11.910555Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴83,628 cycles    
+[2m2024-06-03T03:38:12.365072Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:12.365103Z[0m [32m INFO[0m [1mexecute[0m: │ └╴303,182 cycles    
+[2m2024-06-03T03:38:12.367446Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,244 cycles    
+stdout: "\rprocessing tx 78/106..."
+[2m2024-06-03T03:38:12.370562Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴84,268 cycles    
+[2m2024-06-03T03:38:12.824702Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:12.824732Z[0m [32m INFO[0m [1mexecute[0m: │ └╴303,822 cycles    
+[2m2024-06-03T03:38:12.827117Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,628 cycles    
+stdout: "\rprocessing tx 79/106..."
+[2m2024-06-03T03:38:12.829925Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴76,900 cycles    
+[2m2024-06-03T03:38:13.292660Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:13.292705Z[0m [32m INFO[0m [1mexecute[0m: │ └╴296,454 cycles    
+[2m2024-06-03T03:38:13.295117Z[0m [32m INFO[0m [1mexecute[0m: │ └╴53,860 cycles    
+stdout: "\rprocessing tx 80/106..."
+[2m2024-06-03T03:38:13.295636Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,974 cycles    
+[2m2024-06-03T03:38:13.750345Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:13.750375Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,528 cycles    
+[2m2024-06-03T03:38:13.750682Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,100 cycles    
+stdout: "\rprocessing tx 81/106..."
+[2m2024-06-03T03:38:13.751177Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,022 cycles    
+[2m2024-06-03T03:38:14.205170Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:14.205202Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,576 cycles    
+[2m2024-06-03T03:38:14.205498Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,100 cycles    
+stdout: "\rprocessing tx 82/106..."
+[2m2024-06-03T03:38:14.206223Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴10,508 cycles    
+[2m2024-06-03T03:38:14.661813Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:14.661843Z[0m [32m INFO[0m [1mexecute[0m: │ └╴230,062 cycles    
+[2m2024-06-03T03:38:14.662296Z[0m [32m INFO[0m [1mexecute[0m: │ └╴8,748 cycles    
+stdout: "\rprocessing tx 83/106..."
+[2m2024-06-03T03:38:14.662805Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,472 cycles    
+[2m2024-06-03T03:38:15.129972Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:15.130015Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,026 cycles    
+[2m2024-06-03T03:38:15.130339Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,292 cycles    
+stdout: "\rprocessing tx 84/106..."
+[2m2024-06-03T03:38:15.130858Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,506 cycles    
+[2m2024-06-03T03:38:15.587436Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:15.587469Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,060 cycles    
+[2m2024-06-03T03:38:15.587780Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,292 cycles    
+stdout: "\rprocessing tx 85/106..."
+[2m2024-06-03T03:38:15.588487Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴9,592 cycles    
+[2m2024-06-03T03:38:16.044153Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,288 cycles    
+[2m2024-06-03T03:38:16.044185Z[0m [32m INFO[0m [1mexecute[0m: │ └╴229,155 cycles    
+[2m2024-06-03T03:38:16.044630Z[0m [32m INFO[0m [1mexecute[0m: │ └╴8,623 cycles    
+stdout: "\rprocessing tx 86/106..."
+[2m2024-06-03T03:38:16.045136Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,368 cycles    
+[2m2024-06-03T03:38:16.500353Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:16.500383Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,922 cycles    
+[2m2024-06-03T03:38:16.500698Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,100 cycles    
+stdout: "\rprocessing tx 87/106..."
+[2m2024-06-03T03:38:16.501182Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,980 cycles    
+[2m2024-06-03T03:38:16.956300Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:16.956329Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,534 cycles    
+[2m2024-06-03T03:38:16.956634Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,100 cycles    
+stdout: "\rprocessing tx 88/106..."
+[2m2024-06-03T03:38:16.957248Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴7,646 cycles    
+[2m2024-06-03T03:38:17.423557Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:17.423607Z[0m [32m INFO[0m [1mexecute[0m: │ └╴227,200 cycles    
+[2m2024-06-03T03:38:17.424006Z[0m [32m INFO[0m [1mexecute[0m: │ └╴7,212 cycles    
+stdout: "\rprocessing tx 89/106..."
+[2m2024-06-03T03:38:17.424530Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,472 cycles    
+[2m2024-06-03T03:38:17.879137Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:17.879168Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,026 cycles    
+[2m2024-06-03T03:38:17.879474Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,292 cycles    
+stdout: "\rprocessing tx 90/106..."
+[2m2024-06-03T03:38:17.879949Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,567 cycles    
+[2m2024-06-03T03:38:18.336005Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:18.336034Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,121 cycles    
+[2m2024-06-03T03:38:18.336322Z[0m [32m INFO[0m [1mexecute[0m: │ └╴4,908 cycles    
+stdout: "\rprocessing tx 91/106..."
+[2m2024-06-03T03:38:18.336800Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,557 cycles    
+[2m2024-06-03T03:38:18.792051Z[0m [32m INFO[0m [1mexecute[0m: clk = 70000000 pc = 0x3a1aec    
+[2m2024-06-03T03:38:18.792563Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:18.792591Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,111 cycles    
+[2m2024-06-03T03:38:18.792877Z[0m [32m INFO[0m [1mexecute[0m: │ └╴4,908 cycles    
+stdout: "\rprocessing tx 92/106..."
+[2m2024-06-03T03:38:18.793363Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,951 cycles    
+[2m2024-06-03T03:38:19.256975Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:19.257018Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,505 cycles    
+[2m2024-06-03T03:38:19.257324Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,122 cycles    
+stdout: "\rprocessing tx 93/106..."
+[2m2024-06-03T03:38:19.258053Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴10,500 cycles    
+[2m2024-06-03T03:38:19.712274Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:19.712314Z[0m [32m INFO[0m [1mexecute[0m: │ └╴230,054 cycles    
+[2m2024-06-03T03:38:19.712783Z[0m [32m INFO[0m [1mexecute[0m: │ └╴8,748 cycles    
+stdout: "\rprocessing tx 94/106..."
+[2m2024-06-03T03:38:19.713290Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,488 cycles    
+[2m2024-06-03T03:38:20.167132Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:20.167163Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,042 cycles    
+[2m2024-06-03T03:38:20.167476Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,292 cycles    
+stdout: "\rprocessing tx 95/106..."
+[2m2024-06-03T03:38:20.167966Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,850 cycles    
+[2m2024-06-03T03:38:20.622460Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:20.622494Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,404 cycles    
+[2m2024-06-03T03:38:20.622784Z[0m [32m INFO[0m [1mexecute[0m: │ └╴4,881 cycles    
+stdout: "\rprocessing tx 96/106..."
+[2m2024-06-03T03:38:20.623493Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴10,479 cycles    
+[2m2024-06-03T03:38:21.078506Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:21.078537Z[0m [32m INFO[0m [1mexecute[0m: │ └╴230,033 cycles    
+[2m2024-06-03T03:38:21.078988Z[0m [32m INFO[0m [1mexecute[0m: │ └╴8,748 cycles    
+stdout: "\rprocessing tx 97/106..."
+[2m2024-06-03T03:38:21.079807Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴12,906 cycles    
+[2m2024-06-03T03:38:21.535533Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,288 cycles    
+[2m2024-06-03T03:38:21.535564Z[0m [32m INFO[0m [1mexecute[0m: │ └╴232,469 cycles    
+[2m2024-06-03T03:38:21.536132Z[0m [32m INFO[0m [1mexecute[0m: │ └╴11,119 cycles    
+stdout: "\rprocessing tx 98/106..."
+[2m2024-06-03T03:38:21.539303Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴82,697 cycles    
+[2m2024-06-03T03:38:21.994406Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:21.994438Z[0m [32m INFO[0m [1mexecute[0m: │ └╴302,251 cycles    
+[2m2024-06-03T03:38:21.996799Z[0m [32m INFO[0m [1mexecute[0m: │ └╴53,668 cycles    
+stdout: "\rprocessing tx 99/106..."
+[2m2024-06-03T03:38:22.000042Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴84,866 cycles    
+[2m2024-06-03T03:38:22.455258Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:22.455288Z[0m [32m INFO[0m [1mexecute[0m: │ └╴304,420 cycles    
+[2m2024-06-03T03:38:22.457708Z[0m [32m INFO[0m [1mexecute[0m: │ └╴55,012 cycles    
+stdout: "\rprocessing tx 100/106..."
+[2m2024-06-03T03:38:22.460977Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴84,572 cycles    
+[2m2024-06-03T03:38:22.916212Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:22.916244Z[0m [32m INFO[0m [1mexecute[0m: │ └╴304,126 cycles    
+[2m2024-06-03T03:38:22.918647Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,820 cycles    
+stdout: "\rprocessing tx 101/106..."
+[2m2024-06-03T03:38:22.919208Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴5,224 cycles    
+[2m2024-06-03T03:38:23.374010Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:23.374041Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,778 cycles    
+[2m2024-06-03T03:38:23.374354Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,484 cycles    
+stdout: "\rprocessing tx 102/106..."
+[2m2024-06-03T03:38:23.377556Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴83,030 cycles    
+[2m2024-06-03T03:38:23.832656Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:23.832685Z[0m [32m INFO[0m [1mexecute[0m: │ └╴302,584 cycles    
+[2m2024-06-03T03:38:23.835075Z[0m [32m INFO[0m [1mexecute[0m: │ └╴53,860 cycles    
+stdout: "\rprocessing tx 103/106..."
+[2m2024-06-03T03:38:23.838042Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴77,180 cycles    
+[2m2024-06-03T03:38:24.292301Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:24.292332Z[0m [32m INFO[0m [1mexecute[0m: │ └╴296,734 cycles    
+[2m2024-06-03T03:38:24.294683Z[0m [32m INFO[0m [1mexecute[0m: │ └╴54,052 cycles    
+stdout: "\rprocessing tx 104/106..."
+[2m2024-06-03T03:38:24.295181Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,534 cycles    
+[2m2024-06-03T03:38:24.750641Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:24.750673Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,088 cycles    
+[2m2024-06-03T03:38:24.750969Z[0m [32m INFO[0m [1mexecute[0m: │ └╴4,908 cycles    
+stdout: "\rprocessing tx 105/106..."
+[2m2024-06-03T03:38:24.751505Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴5,140 cycles    
+[2m2024-06-03T03:38:25.207082Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,278 cycles    
+[2m2024-06-03T03:38:25.207112Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,694 cycles    
+[2m2024-06-03T03:38:25.207434Z[0m [32m INFO[0m [1mexecute[0m: │ └╴5,676 cycles    
+stdout: [2KTx transact time: 0.000 seconds
+stdout: Tx misc time: 0.000 seconds
+stdout: actual Tx: 1
+stdout: Processing withdrawals...Processing withdrawals... Done in 0.000 seconds
+stdout: Generating block header...Generating block header... Done in 0.000 seconds
+[2m2024-06-03T03:38:25.208636Z[0m [32m INFO[0m [1mexecute[0m: └╴54,569,518 cycles    
+stdout: finalize Account touched 2
+stdout: finalize Storage touched 5
+[2m2024-06-03T03:38:25.220914Z[0m [32m INFO[0m [1mexecute[0m: └╴367,947 cycles    
+[2m2024-06-03T03:38:25.227469Z[0m [32m INFO[0m [1mexecute[0m: finished execution clk = 74592403 pc = 0x0
+[2m2024-06-03T03:38:25.270738Z[0m [32m INFO[0m [1mexecute[0m: close [3mtime.busy[0m[2m=[0m50.4s [3mtime.idle[0m[2m=[0m2.80µs

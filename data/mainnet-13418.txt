@@ -1,0 +1,328 @@
+"./mainnet-13418.json"
+[2m2024-06-04T17:49:37.998667Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m95.3µs [3mtime.idle[0m[2m=[0m1.01µs
+[2m2024-06-04T17:49:37.998695Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m129µs [3mtime.idle[0m[2m=[0m563ns
+[2m2024-06-04T17:49:37.998759Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.67µs [3mtime.idle[0m[2m=[0m413ns
+[2m2024-06-04T17:49:37.998765Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m9.51µs [3mtime.idle[0m[2m=[0m487ns
+[2m2024-06-04T17:49:37.998902Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m56.5µs [3mtime.idle[0m[2m=[0m467ns
+[2m2024-06-04T17:49:37.998910Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m65.9µs [3mtime.idle[0m[2m=[0m361ns
+[2m2024-06-04T17:49:37.999249Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m159µs [3mtime.idle[0m[2m=[0m365ns
+[2m2024-06-04T17:49:37.999256Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m167µs [3mtime.idle[0m[2m=[0m447ns
+[2m2024-06-04T17:49:38.008816Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m4.17ms [3mtime.idle[0m[2m=[0m900ns
+[2m2024-06-04T17:49:38.008836Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m4.20ms [3mtime.idle[0m[2m=[0m982ns
+[2m2024-06-04T17:49:38.017053Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.86ms [3mtime.idle[0m[2m=[0m737ns
+[2m2024-06-04T17:49:38.017073Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m1.89ms [3mtime.idle[0m[2m=[0m956ns
+[2m2024-06-04T17:49:38.022449Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.37ms [3mtime.idle[0m[2m=[0m821ns
+[2m2024-06-04T17:49:38.022467Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m1.39ms [3mtime.idle[0m[2m=[0m839ns
+[2m2024-06-04T17:49:38.029370Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.01ms [3mtime.idle[0m[2m=[0m784ns
+[2m2024-06-04T17:49:38.029389Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m2.03ms [3mtime.idle[0m[2m=[0m836ns
+[2m2024-06-04T17:49:38.039397Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m3.18ms [3mtime.idle[0m[2m=[0m837ns
+[2m2024-06-04T17:49:38.039417Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m3.21ms [3mtime.idle[0m[2m=[0m970ns
+[2m2024-06-04T17:49:38.048049Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.75ms [3mtime.idle[0m[2m=[0m739ns
+[2m2024-06-04T17:49:38.048068Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m2.77ms [3mtime.idle[0m[2m=[0m959ns
+[2m2024-06-04T17:49:38.056049Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.02ms [3mtime.idle[0m[2m=[0m757ns
+[2m2024-06-04T17:49:38.056068Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m2.04ms [3mtime.idle[0m[2m=[0m922ns
+[2m2024-06-04T17:49:38.065733Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.91ms [3mtime.idle[0m[2m=[0m836ns
+[2m2024-06-04T17:49:38.065752Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m2.94ms [3mtime.idle[0m[2m=[0m1.13µs
+[2m2024-06-04T17:49:38.081097Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m5.20ms [3mtime.idle[0m[2m=[0m905ns
+[2m2024-06-04T17:49:38.081117Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m5.23ms [3mtime.idle[0m[2m=[0m985ns
+[2m2024-06-04T17:49:38.103313Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m6.98ms [3mtime.idle[0m[2m=[0m865ns
+[2m2024-06-04T17:49:38.103333Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m7.01ms [3mtime.idle[0m[2m=[0m1.11µs
+[2m2024-06-04T17:49:38.111353Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m372µs [3mtime.idle[0m[2m=[0m694ns
+[2m2024-06-04T17:49:38.111370Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m390µs [3mtime.idle[0m[2m=[0m830ns
+[2m2024-06-04T17:49:38.119577Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.78ms [3mtime.idle[0m[2m=[0m742ns
+[2m2024-06-04T17:49:38.119597Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m2.81ms [3mtime.idle[0m[2m=[0m875ns
+[2m2024-06-04T17:49:38.122643Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.19ms [3mtime.idle[0m[2m=[0m649ns
+[2m2024-06-04T17:49:38.122659Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m1.20ms [3mtime.idle[0m[2m=[0m803ns
+[2m2024-06-04T17:49:38.122684Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m6.31µs [3mtime.idle[0m[2m=[0m354ns
+[2m2024-06-04T17:49:38.122698Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m20.5µs [3mtime.idle[0m[2m=[0m537ns
+[2m2024-06-04T17:49:38.122804Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m45.1µs [3mtime.idle[0m[2m=[0m366ns
+[2m2024-06-04T17:49:38.122811Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m52.7µs [3mtime.idle[0m[2m=[0m408ns
+[2m2024-06-04T17:49:38.122891Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m26.7µs [3mtime.idle[0m[2m=[0m425ns
+[2m2024-06-04T17:49:38.122899Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m35.2µs [3mtime.idle[0m[2m=[0m350ns
+[2m2024-06-04T17:49:38.122968Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m21.1µs [3mtime.idle[0m[2m=[0m381ns
+[2m2024-06-04T17:49:38.122975Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m28.4µs [3mtime.idle[0m[2m=[0m460ns
+[2m2024-06-04T17:49:38.123021Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m15.3µs [3mtime.idle[0m[2m=[0m354ns
+[2m2024-06-04T17:49:38.123026Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m21.4µs [3mtime.idle[0m[2m=[0m345ns
+[2m2024-06-04T17:49:38.123067Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m12.3µs [3mtime.idle[0m[2m=[0m361ns
+[2m2024-06-04T17:49:38.123073Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m18.3µs [3mtime.idle[0m[2m=[0m343ns
+[2m2024-06-04T17:49:38.123087Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m4.27µs [3mtime.idle[0m[2m=[0m368ns
+[2m2024-06-04T17:49:38.123092Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m9.26µs [3mtime.idle[0m[2m=[0m345ns
+[2m2024-06-04T17:49:38.123099Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.71µs [3mtime.idle[0m[2m=[0m352ns
+[2m2024-06-04T17:49:38.123103Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m6.12µs [3mtime.idle[0m[2m=[0m339ns
+[2m2024-06-04T17:49:38.123126Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m8.06µs [3mtime.idle[0m[2m=[0m329ns
+[2m2024-06-04T17:49:38.123131Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m13.1µs [3mtime.idle[0m[2m=[0m332ns
+[2m2024-06-04T17:49:38.123153Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.79µs [3mtime.idle[0m[2m=[0m324ns
+[2m2024-06-04T17:49:38.123157Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m7.44µs [3mtime.idle[0m[2m=[0m371ns
+[2m2024-06-04T17:49:38.123162Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: close [3mtime.busy[0m[2m=[0m125ms [3mtime.idle[0m[2m=[0m627ns
+[2m2024-06-04T17:49:38.127665Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: CPU
+[2m2024-06-04T17:49:38.137241Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Program
+[2m2024-06-04T17:49:38.138141Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: ShaExtend
+[2m2024-06-04T17:49:38.146311Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: ShaCompress
+[2m2024-06-04T17:49:38.169459Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: EdAddAssign
+[2m2024-06-04T17:49:38.282884Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: EdDecompress
+[2m2024-06-04T17:49:38.363045Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Secp256k1Decompress
+[2m2024-06-04T17:49:38.425052Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Secp256k1AddAssign
+[2m2024-06-04T17:49:38.525347Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Secp256k1DoubleAssign
+[2m2024-06-04T17:49:38.642201Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: KeccakPermute
+[2m2024-06-04T17:49:38.806483Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Bn254AddAssign
+[2m2024-06-04T17:49:38.909170Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Bn254DoubleAssign
+[2m2024-06-04T17:49:39.028086Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Bls12381AddAssign
+[2m2024-06-04T17:49:39.204287Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Bls12381DoubleAssign
+[2m2024-06-04T17:49:39.408116Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Uint256MulMod
+[2m2024-06-04T17:49:39.429252Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Bls12381Decompress
+[2m2024-06-04T17:49:39.533345Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: AddSub
+[2m2024-06-04T17:49:39.534882Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Bitwise
+[2m2024-06-04T17:49:39.536006Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: DivRem
+[2m2024-06-04T17:49:39.541183Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Mul
+[2m2024-06-04T17:49:39.543712Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: ShiftRight
+[2m2024-06-04T17:49:39.547749Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: ShiftLeft
+[2m2024-06-04T17:49:39.550123Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Lt
+[2m2024-06-04T17:49:39.551824Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: MemoryInit
+[2m2024-06-04T17:49:39.552491Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: MemoryFinalize
+[2m2024-06-04T17:49:39.553249Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: MemoryProgram
+[2m2024-06-04T17:49:39.554531Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Byte
+[2m2024-06-04T17:49:39.772116Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 915552
+[2m2024-06-04T17:49:39.822873Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m13.7µs [3mtime.idle[0m[2m=[0m8.67µs
+[2m2024-06-04T17:49:39.822894Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m46.0µs [3mtime.idle[0m[2m=[0m1.95µs
+[2m2024-06-04T17:49:39.823048Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m68.2µs [3mtime.idle[0m[2m=[0m421ns
+[2m2024-06-04T17:49:39.823057Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m77.7µs [3mtime.idle[0m[2m=[0m500ns
+[2m2024-06-04T17:49:39.823097Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m15.6µs [3mtime.idle[0m[2m=[0m365ns
+[2m2024-06-04T17:49:39.823103Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m22.0µs [3mtime.idle[0m[2m=[0m355ns
+[2m2024-06-04T17:49:39.823660Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m241µs [3mtime.idle[0m[2m=[0m466ns
+[2m2024-06-04T17:49:39.823668Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m250µs [3mtime.idle[0m[2m=[0m519ns
+[2m2024-06-04T17:49:39.823881Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m29.1µs [3mtime.idle[0m[2m=[0m372ns
+[2m2024-06-04T17:49:39.823887Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m35.6µs [3mtime.idle[0m[2m=[0m389ns
+[2m2024-06-04T17:49:39.823910Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m7.83µs [3mtime.idle[0m[2m=[0m369ns
+[2m2024-06-04T17:49:39.823914Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m12.4µs [3mtime.idle[0m[2m=[0m342ns
+[2m2024-06-04T17:49:39.937640Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m114ms [3mtime.idle[0m[2m=[0m14.4µs
+[2m2024-06-04T17:49:40.479704Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m245ms [3mtime.idle[0m[2m=[0m3.44µs [2m[3mdimensions[0m[2m=[0m"[33x2097152, 2x131072]"[0m
+[2m2024-06-04T17:49:40.479885Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m475ms [3mtime.idle[0m[2m=[0m2.59µs
+[2m2024-06-04T17:49:40.479897Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m656ms [3mtime.idle[0m[2m=[0m545ns
+[2m2024-06-04T17:49:40.494601Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Program
+[2m2024-06-04T17:49:40.495505Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: CPU
+[2m2024-06-04T17:49:40.500780Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: MemoryGlobalChip
+[2m2024-06-04T17:49:40.501556Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Poseidon2Wide 3
+[2m2024-06-04T17:49:40.519118Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: FriFold
+[2m2024-06-04T17:49:40.523357Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: RangeCheck
+[2m2024-06-04T17:49:40.531543Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 47420
+[2m2024-06-04T17:49:40.550269Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m16.7ms [3mtime.idle[0m[2m=[0m1.25µs
+[2m2024-06-04T17:49:40.578817Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m13.8ms [3mtime.idle[0m[2m=[0m2.53µs [2m[3mdimensions[0m[2m=[0m"[33x131072, 2x131072]"[0m
+[2m2024-06-04T17:49:40.578847Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m27.5ms [3mtime.idle[0m[2m=[0m1.81µs
+[2m2024-06-04T17:49:40.578855Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m45.3ms [3mtime.idle[0m[2m=[0m1.66µs
+[2m2024-06-04T17:49:40.593251Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Program
+[2m2024-06-04T17:49:40.594131Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: CPU
+[2m2024-06-04T17:49:40.599364Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: MemoryGlobalChip
+[2m2024-06-04T17:49:40.600141Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Poseidon2Wide 3
+[2m2024-06-04T17:49:40.617535Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: FriFold
+[2m2024-06-04T17:49:40.621795Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: RangeCheck
+[2m2024-06-04T17:49:40.633397Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 52599
+[2m2024-06-04T17:49:40.653621Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m18.0ms [3mtime.idle[0m[2m=[0m1.16µs
+[2m2024-06-04T17:49:40.688889Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m13.7ms [3mtime.idle[0m[2m=[0m2.51µs [2m[3mdimensions[0m[2m=[0m"[33x131072, 2x131072]"[0m
+[2m2024-06-04T17:49:40.688919Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m30.9ms [3mtime.idle[0m[2m=[0m2.03µs
+[2m2024-06-04T17:49:40.688929Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m53.3ms [3mtime.idle[0m[2m=[0m1.42µs
+[2m2024-06-04T17:49:40.702755Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Program
+[2m2024-06-04T17:49:40.703653Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: CPU
+[2m2024-06-04T17:49:40.708869Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: MemoryGlobalChip
+[2m2024-06-04T17:49:40.709656Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Poseidon2Wide 3
+[2m2024-06-04T17:49:40.727090Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: FriFold
+[2m2024-06-04T17:49:40.731356Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: RangeCheck
+[2m2024-06-04T17:49:40.737088Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 44668
+[2m2024-06-04T17:49:40.738698Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m4.52µs [3mtime.idle[0m[2m=[0m949ns
+[2m2024-06-04T17:49:40.738720Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m29.6µs [3mtime.idle[0m[2m=[0m1.39µs
+[2m2024-06-04T17:49:40.738896Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m74.3µs [3mtime.idle[0m[2m=[0m543ns
+[2m2024-06-04T17:49:40.738914Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m93.4µs [3mtime.idle[0m[2m=[0m548ns
+[2m2024-06-04T17:49:40.738970Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m19.6µs [3mtime.idle[0m[2m=[0m496ns
+[2m2024-06-04T17:49:40.738978Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m28.1µs [3mtime.idle[0m[2m=[0m631ns
+[2m2024-06-04T17:49:40.739533Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m222µs [3mtime.idle[0m[2m=[0m502ns
+[2m2024-06-04T17:49:40.739541Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m231µs [3mtime.idle[0m[2m=[0m581ns
+[2m2024-06-04T17:49:40.739780Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m31.2µs [3mtime.idle[0m[2m=[0m364ns
+[2m2024-06-04T17:49:40.739786Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m37.4µs [3mtime.idle[0m[2m=[0m441ns
+[2m2024-06-04T17:49:40.739819Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m11.1µs [3mtime.idle[0m[2m=[0m447ns
+[2m2024-06-04T17:49:40.739825Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m17.6µs [3mtime.idle[0m[2m=[0m443ns
+[2m2024-06-04T17:49:40.760073Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m20.2ms [3mtime.idle[0m[2m=[0m1.33µs
+[2m2024-06-04T17:49:40.868742Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m58.9ms [3mtime.idle[0m[2m=[0m2.58µs [2m[3mdimensions[0m[2m=[0m"[33x524288, 2x524288]"[0m
+[2m2024-06-04T17:49:40.868766Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m104ms [3mtime.idle[0m[2m=[0m1.77µs
+[2m2024-06-04T17:49:40.868776Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m129ms [3mtime.idle[0m[2m=[0m532ns
+[2m2024-06-04T17:49:40.882603Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Program
+[2m2024-06-04T17:49:40.883502Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: CPU
+[2m2024-06-04T17:49:40.888726Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: MemoryGlobalChip
+[2m2024-06-04T17:49:40.889514Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Poseidon2Wide 9
+[2m2024-06-04T17:49:40.904774Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: FriFold
+[2m2024-06-04T17:49:40.912301Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: RangeCheck
+[2m2024-06-04T17:49:40.918182Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 44197
+[2m2024-06-04T17:49:40.920870Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m4.77µs [3mtime.idle[0m[2m=[0m1.12µs
+[2m2024-06-04T17:49:40.920890Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m27.6µs [3mtime.idle[0m[2m=[0m1.39µs
+[2m2024-06-04T17:49:40.921054Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m65.9µs [3mtime.idle[0m[2m=[0m562ns
+[2m2024-06-04T17:49:40.921071Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m83.7µs [3mtime.idle[0m[2m=[0m622ns
+[2m2024-06-04T17:49:40.921125Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m19.0µs [3mtime.idle[0m[2m=[0m446ns
+[2m2024-06-04T17:49:40.921133Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m27.3µs [3mtime.idle[0m[2m=[0m569ns
+[2m2024-06-04T17:49:40.921615Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m186µs [3mtime.idle[0m[2m=[0m378ns
+[2m2024-06-04T17:49:40.921623Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m194µs [3mtime.idle[0m[2m=[0m531ns
+[2m2024-06-04T17:49:40.921779Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m50.6µs [3mtime.idle[0m[2m=[0m353ns
+[2m2024-06-04T17:49:40.921784Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m56.1µs [3mtime.idle[0m[2m=[0m391ns
+[2m2024-06-04T17:49:40.941144Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m19.4ms [3mtime.idle[0m[2m=[0m1.30µs
+[2m2024-06-04T17:49:41.732642Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m761ms [3mtime.idle[0m[2m=[0m2.58µs [2m[3mdimensions[0m[2m=[0m"[33x262144, 2x262144]"[0m
+[2m2024-06-04T17:49:41.732672Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m787ms [3mtime.idle[0m[2m=[0m7.43µs
+[2m2024-06-04T17:49:41.732680Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m811ms [3mtime.idle[0m[2m=[0m636ns
+[2m2024-06-04T17:49:41.732687Z[0m [32m INFO[0m [1minitialize prover[0m: close [3mtime.busy[0m[2m=[0m3.73s [3mtime.idle[0m[2m=[0m2.34µs
+[2m2024-06-04T17:49:42.003878Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m217ms [3mtime.idle[0m[2m=[0m1.37µs
+[2m2024-06-04T17:49:42.453747Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m206ms [3mtime.idle[0m[2m=[0m3.97µs [2m[3mdimensions[0m[2m=[0m"[6x2097152, 37x1048576, 11x131072]"[0m
+[2m2024-06-04T17:49:42.453786Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m411ms [3mtime.idle[0m[2m=[0m2.45µs
+[2m2024-06-04T17:49:42.453796Z[0m [32m INFO[0m [1msetup[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m667ms [3mtime.idle[0m[2m=[0m1.74µs
+[2m2024-06-04T17:49:42.460293Z[0m [32m INFO[0m [1msetup[0m: close [3mtime.busy[0m[2m=[0m728ms [3mtime.idle[0m[2m=[0m1.66µs
+[2m2024-06-04T17:49:42.516851Z[0m [32m INFO[0m [1mexecute[0m: loading memory image
+[2m2024-06-04T17:49:42.545289Z[0m [32m INFO[0m [1mexecute[0m: starting execution
+[2m2024-06-04T17:49:42.545307Z[0m [32m INFO[0m [1mexecute[0m: clk = 0 pc = 0x28f620    
+[2m2024-06-04T17:49:43.023785Z[0m [34mDEBUG[0m [1mexecute[0m: ┌╴initialize_database    
+[2m2024-06-04T17:49:43.035114Z[0m [32m INFO[0m [1mexecute[0m: clk = 10000000 pc = 0x297408    
+[2m2024-06-04T17:49:43.330056Z[0m [32m INFO[0m [1mexecute[0m: clk = 20000000 pc = 0x2c3034    
+stdout: initialize_db Account touch 25
+stdout: initialize_db Storage touch 67
+[2m2024-06-04T17:49:43.557686Z[0m [32m INFO[0m [1mexecute[0m: └╴17,394,586 cycles    
+[2m2024-06-04T17:49:43.557850Z[0m [34mDEBUG[0m [1mexecute[0m: ┌╴prepare_header    
+[2m2024-06-04T17:49:43.558407Z[0m [32m INFO[0m [1mexecute[0m: └╴14,432 cycles    
+[2m2024-06-04T17:49:43.558551Z[0m [34mDEBUG[0m [1mexecute[0m: ┌╴execute_transactions    
+stdout: block no 13418
+stdout: spec_id: SHANGHAI
+stdout: total Txs: 14
+stdout: "\rprocessing tx 0/14..."
+[2m2024-06-04T17:49:43.619616Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴Eip1559    
+[2m2024-06-04T17:49:43.619637Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴signature_hash    
+[2m2024-06-04T17:49:43.619832Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,721 cycles    
+[2m2024-06-04T17:49:43.619850Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴recover_address_from_prehash    
+[2m2024-06-04T17:49:44.038434Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,651 cycles    
+[2m2024-06-04T17:49:44.038465Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,663 cycles    
+[2m2024-06-04T17:49:44.039105Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴evm.transact()    
+[2m2024-06-04T17:49:44.051691Z[0m [32m INFO[0m [1mexecute[0m: clk = 30000000 pc = 0x286000    
+[2m2024-06-04T17:49:44.111208Z[0m [32m INFO[0m [1mexecute[0m: │ └╴2,182,434 cycles    
+stdout: "\rprocessing tx 1/14..."
+[2m2024-06-04T17:49:44.113337Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴Eip1559    
+[2m2024-06-04T17:49:44.113356Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴signature_hash    
+[2m2024-06-04T17:49:44.113526Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴4,083 cycles    
+[2m2024-06-04T17:49:44.113545Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴recover_address_from_prehash    
+[2m2024-06-04T17:49:44.531535Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,651 cycles    
+[2m2024-06-04T17:49:44.531566Z[0m [32m INFO[0m [1mexecute[0m: │ └╴224,025 cycles    
+[2m2024-06-04T17:49:44.531611Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴evm.transact()    
+[2m2024-06-04T17:49:44.533485Z[0m [32m INFO[0m [1mexecute[0m: │ └╴47,448 cycles    
+stdout: "\rprocessing tx 2/14..."
+[2m2024-06-04T17:49:44.534497Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴Legacy    
+[2m2024-06-04T17:49:44.534515Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴signature_hash    
+[2m2024-06-04T17:49:44.534661Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,640 cycles    
+[2m2024-06-04T17:49:44.534679Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴recover_address_from_prehash    
+[2m2024-06-04T17:49:44.952996Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,661 cycles    
+[2m2024-06-04T17:49:44.953027Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,591 cycles    
+[2m2024-06-04T17:49:44.953068Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴evm.transact()    
+[2m2024-06-04T17:49:44.956981Z[0m [32m INFO[0m [1mexecute[0m: │ └╴98,567 cycles    
+stdout: "\rprocessing tx 3/14..."
+[2m2024-06-04T17:49:44.958443Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴Legacy    
+[2m2024-06-04T17:49:44.958461Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴signature_hash    
+[2m2024-06-04T17:49:44.958614Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,662 cycles    
+[2m2024-06-04T17:49:44.958632Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴recover_address_from_prehash    
+[2m2024-06-04T17:49:45.376862Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,661 cycles    
+[2m2024-06-04T17:49:45.376907Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,613 cycles    
+[2m2024-06-04T17:49:45.376953Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴evm.transact()    
+[2m2024-06-04T17:49:45.380927Z[0m [32m INFO[0m [1mexecute[0m: │ └╴98,601 cycles    
+stdout: "\rprocessing tx 4/14..."
+[2m2024-06-04T17:49:45.382157Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴Legacy    
+[2m2024-06-04T17:49:45.382183Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴signature_hash    
+[2m2024-06-04T17:49:45.382336Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,640 cycles    
+[2m2024-06-04T17:49:45.382354Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴recover_address_from_prehash    
+[2m2024-06-04T17:49:45.800791Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,661 cycles    
+[2m2024-06-04T17:49:45.800823Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,591 cycles    
+[2m2024-06-04T17:49:45.800865Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴evm.transact()    
+[2m2024-06-04T17:49:45.804848Z[0m [32m INFO[0m [1mexecute[0m: │ └╴98,746 cycles    
+stdout: "\rprocessing tx 5/14..."
+[2m2024-06-04T17:49:45.806106Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴Legacy    
+[2m2024-06-04T17:49:45.806123Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴signature_hash    
+[2m2024-06-04T17:49:45.806280Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,662 cycles    
+[2m2024-06-04T17:49:45.806297Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴recover_address_from_prehash    
+[2m2024-06-04T17:49:46.225837Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,661 cycles    
+[2m2024-06-04T17:49:46.225869Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,613 cycles    
+[2m2024-06-04T17:49:46.225912Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴evm.transact()    
+[2m2024-06-04T17:49:46.229885Z[0m [32m INFO[0m [1mexecute[0m: │ └╴98,574 cycles    
+stdout: "\rprocessing tx 6/14..."
+[2m2024-06-04T17:49:46.231135Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴Legacy    
+[2m2024-06-04T17:49:46.231153Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴signature_hash    
+[2m2024-06-04T17:49:46.231304Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,640 cycles    
+[2m2024-06-04T17:49:46.231322Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴recover_address_from_prehash    
+[2m2024-06-04T17:49:46.650334Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,661 cycles    
+[2m2024-06-04T17:49:46.650364Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,591 cycles    
+[2m2024-06-04T17:49:46.650407Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴evm.transact()    
+[2m2024-06-04T17:49:46.654319Z[0m [32m INFO[0m [1mexecute[0m: │ └╴98,572 cycles    
+stdout: "\rprocessing tx 7/14..."
+[2m2024-06-04T17:49:46.655581Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴Legacy    
+[2m2024-06-04T17:49:46.655599Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴signature_hash    
+[2m2024-06-04T17:49:46.655752Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,662 cycles    
+[2m2024-06-04T17:49:46.655770Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴recover_address_from_prehash    
+[2m2024-06-04T17:49:47.073486Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,661 cycles    
+[2m2024-06-04T17:49:47.073518Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,613 cycles    
+[2m2024-06-04T17:49:47.073560Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴evm.transact()    
+[2m2024-06-04T17:49:47.077488Z[0m [32m INFO[0m [1mexecute[0m: │ └╴98,606 cycles    
+stdout: "\rprocessing tx 8/14..."
+[2m2024-06-04T17:49:47.078708Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴Legacy    
+[2m2024-06-04T17:49:47.078726Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴signature_hash    
+[2m2024-06-04T17:49:47.078881Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,640 cycles    
+[2m2024-06-04T17:49:47.078901Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴recover_address_from_prehash    
+[2m2024-06-04T17:49:47.498418Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,661 cycles    
+[2m2024-06-04T17:49:47.498449Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,591 cycles    
+[2m2024-06-04T17:49:47.498491Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴evm.transact()    
+[2m2024-06-04T17:49:47.502334Z[0m [32m INFO[0m [1mexecute[0m: │ └╴98,603 cycles    
+stdout: "\rprocessing tx 9/14..."
+[2m2024-06-04T17:49:47.503568Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴Legacy    
+[2m2024-06-04T17:49:47.503592Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴signature_hash    
+[2m2024-06-04T17:49:47.503744Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,673 cycles    
+[2m2024-06-04T17:49:47.503762Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴recover_address_from_prehash    
+[2m2024-06-04T17:49:47.922718Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,661 cycles    
+[2m2024-06-04T17:49:47.922760Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,624 cycles    
+[2m2024-06-04T17:49:47.922803Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴evm.transact()    
+[2m2024-06-04T17:49:47.926785Z[0m [32m INFO[0m [1mexecute[0m: │ └╴98,666 cycles    
+stdout: "\rprocessing tx 10/14..."
+[2m2024-06-04T17:49:47.928226Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴Legacy    
+[2m2024-06-04T17:49:47.928248Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴signature_hash    
+[2m2024-06-04T17:49:47.928404Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,643 cycles    
+[2m2024-06-04T17:49:47.928422Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴recover_address_from_prehash    
+[2m2024-06-04T17:49:48.347243Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,661 cycles    
+[2m2024-06-04T17:49:48.347274Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,594 cycles    
+[2m2024-06-04T17:49:48.347316Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴evm.transact()    
+[2m2024-06-04T17:49:48.351169Z[0m [32m INFO[0m [1mexecute[0m: │ └╴98,598 cycles    
+stdout: "\rprocessing tx 11/14..."
+[2m2024-06-04T17:49:48.352421Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴Legacy    
+[2m2024-06-04T17:49:48.352438Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴signature_hash    
+[2m2024-06-04T17:49:48.352601Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,980 cycles    
+[2m2024-06-04T17:49:48.352618Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴recover_address_from_prehash    
+[2m2024-06-04T17:49:48.771728Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,661 cycles    
+[2m2024-06-04T17:49:48.771761Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,931 cycles    
+[2m2024-06-04T17:49:48.771810Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴evm.transact()    
+[2m2024-06-04T17:49:48.778553Z[0m [32m INFO[0m [1mexecute[0m: │ └╴173,144 cycles    
+stdout: "\rprocessing tx 12/14..."
+[2m2024-06-04T17:49:48.779872Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴Eip1559    
+[2m2024-06-04T17:49:48.779891Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴signature_hash    
+[2m2024-06-04T17:49:48.780053Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,905 cycles    
+[2m2024-06-04T17:49:48.780071Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴recover_address_from_prehash    
+[2m2024-06-04T17:49:49.198324Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,651 cycles    
+[2m2024-06-04T17:49:49.198355Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,847 cycles    
+[2m2024-06-04T17:49:49.198403Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴evm.transact()    
+[2m2024-06-04T17:49:49.237879Z[0m [32m INFO[0m [1mexecute[0m: │ └╴1,176,350 cycles    
+stdout: "\rprocessing tx 13/14..."
+[2m2024-06-04T17:49:49.238816Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴Eip1559    
+[2m2024-06-04T17:49:49.238834Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴signature_hash    
+[2m2024-06-04T17:49:49.238980Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴3,356 cycles    
+[2m2024-06-04T17:49:49.238999Z[0m [34mDEBUG[0m [1mexecute[0m: │ │ ┌╴recover_address_from_prehash    
+[2m2024-06-04T17:49:49.657867Z[0m [32m INFO[0m [1mexecute[0m: │ │ └╴218,651 cycles    
+[2m2024-06-04T17:49:49.657897Z[0m [32m INFO[0m [1mexecute[0m: │ └╴223,298 cycles    
+[2m2024-06-04T17:49:49.657945Z[0m [34mDEBUG[0m [1mexecute[0m: │ ┌╴evm.transact()    
+[2m2024-06-04T17:49:49.729416Z[0m [32m INFO[0m [1mexecute[0m: │ └╴2,091,557 cycles    
+stdout: [2KTx transact time: 0.000 seconds
+stdout: Tx misc time: 0.000 seconds
+stdout: actual Tx: 14
+stdout: Processing withdrawals...Processing withdrawals... Done in 0.000 seconds
+stdout: Generating block header...Generating block header... Done in 0.000 seconds
+[2m2024-06-04T17:49:49.736429Z[0m [32m INFO[0m [1mexecute[0m: └╴12,725,889 cycles    
+[2m2024-06-04T17:49:49.736572Z[0m [34mDEBUG[0m [1mexecute[0m: ┌╴finalize    
+[2m2024-06-04T17:49:49.743437Z[0m [32m INFO[0m [1mexecute[0m: clk = 40000000 pc = 0x2a39ec    
+stdout: finalize Account touched 18
+stdout: finalize Storage touched 61
+[2m2024-06-04T17:49:49.805143Z[0m [32m INFO[0m [1mexecute[0m: └╴2,173,822 cycles    
+[2m2024-06-04T17:49:49.807752Z[0m [32m INFO[0m [1mexecute[0m: finished execution clk = 42029389 pc = 0x0
+[2m2024-06-04T17:49:49.838535Z[0m [32m INFO[0m [1mexecute[0m: close [3mtime.busy[0m[2m=[0m7.38s [3mtime.idle[0m[2m=[0m2.62µs
+11.840239746s

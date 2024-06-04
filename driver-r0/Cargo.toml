@@ -1,0 +1,18 @@
+[package]
+name = "driver"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "builder"
+path = "src/builder.rs"
+
+[[bin]]
+name = "driver"
+path = "src/driver.rs"
+
+[dependencies]
+raiko-pipeline = {path = "../../raiko", features = ["risc0"]}
+risc0-zkvm = { git = "https://github.com/risc0/risc0.git", features = ["prove", "getrandom"]}
+cycle-counter = { git = "https://github.com/risc0/risc0.git" }
+

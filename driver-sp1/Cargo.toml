@@ -1,0 +1,21 @@
+[package]
+name = "driver"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+name = "builder"
+path = "src/builder.rs"
+
+[[bin]]
+name = "driver"
+path = "src/driver.rs"
+
+[dependencies]
+raiko-pipeline = {path = "../../raiko/pipeline", features = ["sp1", "risc0"]}
+sp1-sdk = { git = "https://github.com/succinctlabs/sp1.git", tag = "main"}
+
+serde_json = { version = "1.0", default-features = false, features = ["alloc"] }
+raiko-lib = {path = "../../raiko/lib", features = ["std", "sp1"] }
+
