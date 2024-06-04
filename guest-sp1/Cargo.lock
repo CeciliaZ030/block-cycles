@@ -989,8 +989,8 @@ dependencies = [
  "harness",
  "harness-core",
  "raiko-lib",
- "revm-precompile",
- "revm-primitives",
+ "revm-precompile 6.0.0 (git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2)",
+ "revm-primitives 3.1.1 (git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2)",
  "sha2 0.10.8 (git+https://github.com/sp1-patches/RustCrypto-hashes?branch=v0.10.8)",
  "sp1-derive",
  "sp1-precompiles",
@@ -1000,7 +1000,7 @@ dependencies = [
 [[package]]
 name = "harness"
 version = "0.1.0"
-source = "git+https://github.com/taikoxyz/raiko.git?branch=sp1-cycle-tracker#9e948fe5d7ef9bd1c6e1064eff5302fe13bd9c2f"
+source = "git+https://github.com/taikoxyz/raiko.git?branch=sp1-cycle-tracker#c1ebdcb5a75e19bb0c2c22d3a142c3c86b2fde1c"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1010,7 +1010,7 @@ dependencies = [
 [[package]]
 name = "harness-core"
 version = "0.1.0"
-source = "git+https://github.com/taikoxyz/raiko.git?branch=sp1-cycle-tracker#9e948fe5d7ef9bd1c6e1064eff5302fe13bd9c2f"
+source = "git+https://github.com/taikoxyz/raiko.git?branch=sp1-cycle-tracker#c1ebdcb5a75e19bb0c2c22d3a142c3c86b2fde1c"
 dependencies = [
  "once_cell",
  "proc-macro2",
@@ -1560,7 +1560,7 @@ checksum = "dc33ff2d4973d518d823d61aa239014831e521c75da58e3df4840d3f47749d09"
 [[package]]
 name = "raiko-lib"
 version = "0.1.0"
-source = "git+https://github.com/taikoxyz/raiko.git?branch=sp1-cycle-tracker#9e948fe5d7ef9bd1c6e1064eff5302fe13bd9c2f"
+source = "git+https://github.com/taikoxyz/raiko.git?branch=sp1-cycle-tracker#c1ebdcb5a75e19bb0c2c22d3a142c3c86b2fde1c"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -1581,7 +1581,7 @@ dependencies = [
  "log",
  "once_cell",
  "revm",
- "revm-primitives",
+ "revm-primitives 3.1.1 (git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2-cycls)",
  "rlp",
  "serde",
  "serde_json",
@@ -1650,13 +1650,13 @@ checksum = "adad44e29e4c806119491a7f06f03de4d1af22c3a680dd47f1e6e179439d1f56"
 [[package]]
 name = "revm"
 version = "8.0.0"
-source = "git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2#a5c01f345f4362f4d5d8bbddf37e9d8aeb27b0d3"
+source = "git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2-cycls#d248be2d357f09f115813f8eecbced41351adfe8"
 dependencies = [
  "auto_impl",
  "cfg-if",
  "dyn-clone",
  "revm-interpreter",
- "revm-precompile",
+ "revm-precompile 6.0.0 (git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2-cycls)",
  "serde",
  "serde_json",
 ]
@@ -1664,9 +1664,9 @@ dependencies = [
 [[package]]
 name = "revm-interpreter"
 version = "4.0.0"
-source = "git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2#a5c01f345f4362f4d5d8bbddf37e9d8aeb27b0d3"
+source = "git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2-cycls#d248be2d357f09f115813f8eecbced41351adfe8"
 dependencies = [
- "revm-primitives",
+ "revm-primitives 3.1.1 (git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2-cycls)",
  "serde",
 ]
 
@@ -1680,7 +1680,24 @@ dependencies = [
  "cfg-if",
  "k256",
  "once_cell",
- "revm-primitives",
+ "revm-primitives 3.1.1 (git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2)",
+ "ripemd",
+ "secp256k1",
+ "sha2 0.10.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "substrate-bn",
+]
+
+[[package]]
+name = "revm-precompile"
+version = "6.0.0"
+source = "git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2-cycls#d248be2d357f09f115813f8eecbced41351adfe8"
+dependencies = [
+ "aurora-engine-modexp",
+ "c-kzg-taiko",
+ "cfg-if",
+ "k256",
+ "once_cell",
+ "revm-primitives 3.1.1 (git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2-cycls)",
  "ripemd",
  "secp256k1",
  "sha2 0.10.8 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1691,6 +1708,26 @@ dependencies = [
 name = "revm-primitives"
 version = "3.1.1"
 source = "git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2#a5c01f345f4362f4d5d8bbddf37e9d8aeb27b0d3"
+dependencies = [
+ "alloy-primitives",
+ "auto_impl",
+ "bitflags",
+ "bitvec",
+ "c-kzg-taiko",
+ "cfg-if",
+ "derive_more",
+ "dyn-clone",
+ "enumn",
+ "hashbrown 0.14.5",
+ "hex",
+ "once_cell",
+ "serde",
+]
+
+[[package]]
+name = "revm-primitives"
+version = "3.1.1"
+source = "git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2-cycls#d248be2d357f09f115813f8eecbced41351adfe8"
 dependencies = [
  "alloy-primitives",
  "auto_impl",
