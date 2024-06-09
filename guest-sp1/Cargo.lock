@@ -572,9 +572,9 @@ dependencies = [
 
 [[package]]
 name = "cc"
-version = "1.0.98"
+version = "1.0.99"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "41c270e7540d725e65ac7f1b212ac8ce349719624d7bcff99f8e2e488e8cf03f"
+checksum = "96c51067fd44124faa7f870b4b1c969379ad32b2ba805aa959430ceaa384f695"
 
 [[package]]
 name = "cfg-if"
@@ -1000,7 +1000,7 @@ dependencies = [
 [[package]]
 name = "harness"
 version = "0.1.0"
-source = "git+https://github.com/taikoxyz/raiko.git?branch=sp1-cycle-tracker#c1ebdcb5a75e19bb0c2c22d3a142c3c86b2fde1c"
+source = "git+https://github.com/taikoxyz/raiko.git?branch=sp1-cycle-tracker#42d9ed47da65c3162d94a90f25449b5e81d1f262"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1010,7 +1010,7 @@ dependencies = [
 [[package]]
 name = "harness-core"
 version = "0.1.0"
-source = "git+https://github.com/taikoxyz/raiko.git?branch=sp1-cycle-tracker#c1ebdcb5a75e19bb0c2c22d3a142c3c86b2fde1c"
+source = "git+https://github.com/taikoxyz/raiko.git?branch=sp1-cycle-tracker#42d9ed47da65c3162d94a90f25449b5e81d1f262"
 dependencies = [
  "once_cell",
  "proc-macro2",
@@ -1560,7 +1560,7 @@ checksum = "dc33ff2d4973d518d823d61aa239014831e521c75da58e3df4840d3f47749d09"
 [[package]]
 name = "raiko-lib"
 version = "0.1.0"
-source = "git+https://github.com/taikoxyz/raiko.git?branch=sp1-cycle-tracker#c1ebdcb5a75e19bb0c2c22d3a142c3c86b2fde1c"
+source = "git+https://github.com/taikoxyz/raiko.git?branch=sp1-cycle-tracker#42d9ed47da65c3162d94a90f25449b5e81d1f262"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -1590,6 +1590,7 @@ dependencies = [
  "sha3",
  "thiserror",
  "thiserror-no-std",
+ "tracing",
  "url",
 ]
 
@@ -2070,7 +2071,7 @@ dependencies = [
 [[package]]
 name = "sp1-derive"
 version = "0.1.0"
-source = "git+https://github.com/succinctlabs/sp1.git#10495837c72f046aaccc81b81dc3c9055e3bf3a2"
+source = "git+https://github.com/succinctlabs/sp1.git#8c0f5010606f9c2306effe60412d421c23e88afa"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -2080,7 +2081,7 @@ dependencies = [
 [[package]]
 name = "sp1-precompiles"
 version = "0.1.0"
-source = "git+https://github.com/succinctlabs/sp1.git?tag=main#6ee15b1169823907cf422d88f8dfbf284d0a18be"
+source = "git+https://github.com/succinctlabs/sp1.git?branch=main#8c0f5010606f9c2306effe60412d421c23e88afa"
 dependencies = [
  "anyhow",
  "bincode",
@@ -2097,7 +2098,7 @@ dependencies = [
 [[package]]
 name = "sp1-zkvm"
 version = "0.1.0"
-source = "git+https://github.com/succinctlabs/sp1.git?tag=main#6ee15b1169823907cf422d88f8dfbf284d0a18be"
+source = "git+https://github.com/succinctlabs/sp1.git?branch=main#8c0f5010606f9c2306effe60412d421c23e88afa"
 dependencies = [
  "bincode",
  "cfg-if",

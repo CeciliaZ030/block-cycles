@@ -5,5 +5,5 @@ edition = "2021"
 
 [dependencies]
 risc0-zkvm = { version = "0.21.0", default-features = false, features = ['std', "getrandom"] }
-harness = {path = "../../raiko", features = ["risc0"]}
-harness-core = {path = "../../raiko"}
+harness = { git = "https://github.com/taikoxyz/raiko.git", branch = "sp1-cycle-tracker", features = ["risc0"]}
+harness-core = { git = "https://github.com/taikoxyz/raiko.git", branch = "sp1-cycle-tracker" }
