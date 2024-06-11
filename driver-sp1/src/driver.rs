@@ -8,10 +8,12 @@ const ELF: &[u8] = include_bytes!("../../guest-sp1/elf/guest");
 
 const KECCAK: &[u8] = include_bytes!("../../guest-sp1/elf/keccak");
 
+const TEST: &[u8] = include_bytes!("../../guest-sp1/elf/test-guest");
+
 fn main() {
-    let args: Vec<String> = std::env::args().collect();
-    let input = PathBuf::from(format!("./{}.json", &args.get(1).expect("Input.json?")));
-    println!("{:?}", input);
+    // let args: Vec<String> = std::env::args().collect();
+    // let input = PathBuf::from(format!("./{}.json", &args.get(1).expect("Input.json?")));
+    // println!("{:?}", input);
 
     // Setup a tracer for logging.
     utils::setup_logger();
@@ -19,15 +21,15 @@ fn main() {
     // Create an input stream.
     let mut stdin = SP1Stdin::new();
 
-    let json = std::fs::read_to_string(input).unwrap();
-    let input: GuestInput = serde_json::from_str(&json).unwrap();
-    stdin.write(&input);
+    // let json = std::fs::read_to_string(input).unwrap();
+    // let input: GuestInput = serde_json::from_str(&json).unwrap();
+    // stdin.write(&input);
 
     let start = std::time::Instant::now();
 
     // Generate the proof for the given program.
     let client = ProverClient::new();
-    let (pk, vk) = client.setup(ELF);
+    let (pk, vk) = client.setup(TEST);
     let proof = client.prove(&pk, stdin).unwrap();
 
     let end = start.elapsed();

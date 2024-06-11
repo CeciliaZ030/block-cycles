@@ -1,45 +1,9 @@
+// use alloy_primitives::{keccak256, ChainId, TxKind, B256, U256};
 #![no_main]
-harness::entrypoint!(main, tests);
-
-use raiko_lib::{
-    builder::{BlockBuilderStrategy, TaikoStrategy},
-    input::GuestInput,
-};
-use revm_precompile::zk_op::ZkOperation;
-
-pub mod zk_op;
-use zk_op::Sp1Operator;
-
-pub mod mem;
-pub use mem::*;
-
+harness::entrypoint!(main);
 fn main() {
-    revm_precompile::zk_op::ZKVM_OPERATOR.get_or_init(|| Box::new(Sp1Operator {}));
-    revm_precompile::zk_op::ZKVM_OPERATIONS
-        .set(Box::new(vec![
-            ZkOperation::Bn128Add,
-            ZkOperation::Bn128Mul,
-            ZkOperation::Sha256,
-            // ZkOperation::Secp256k1,
-        ]))
-        .expect("Failed to set ZkvmOperations");
-
-    let mut input: GuestInput = sp1_zkvm::io::read::<GuestInput>();
-    input.taiko.skip_verify_blob = true;
-
-    let build_result = TaikoStrategy::build_from(&input);
+    sign_recover();
 }
-
-harness::zk_suits!(
-    pub mod tests {
-        use super::*;
-
-        #[test]
-        pub fn test_build_from_mock_input() {
-            sign_recover();
-        }
-    }
-);
 
 #[sp1_derive::cycle_tracker]
 pub fn sign_recover() {

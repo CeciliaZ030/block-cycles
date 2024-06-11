@@ -83,7 +83,7 @@ fn be_bytes_to_point(input: &[u8]) -> AffinePoint<Bn254, 16> {
     y.reverse();
 
     // Init AffinePoint for sp1
-    AffinePoint::<Bn254, 16>::from(x, y)
+    AffinePoint::<Bn254, 16>::from(&x, &y)
 }
 
 #[inline]

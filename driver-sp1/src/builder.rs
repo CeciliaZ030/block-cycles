@@ -6,6 +6,7 @@ use std::path::PathBuf;
 fn main() {
     let pipeline = Sp1Pipeline::new("../guest-sp1", "release");
     pipeline.bins(&["guest", "keccak"], "../guest-sp1/elf");
+    pipeline.tests(&["guest"], "../guest-sp1/elf");
 }
 
 pub struct Sp1Pipeline {

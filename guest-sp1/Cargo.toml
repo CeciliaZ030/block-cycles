@@ -7,9 +7,12 @@ edition = "2021"
 name = "keccak"
 path = "src/keccak.rs"
 
+[[bin]]
+name = "secp256k1"
+path = "src/secp256k1.rs"
+
 [dependencies]
 sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git", branch = "main" }
-sp1-derive = { git = "https://github.com/succinctlabs/sp1.git" }
 harness = { git = "https://github.com/taikoxyz/raiko.git", branch = "sp1-cycle-tracker", features = ["sp1"]}
 harness-core = { git = "https://github.com/taikoxyz/raiko.git", branch = "sp1-cycle-tracker" }
 raiko-lib = {  git = "https://github.com/taikoxyz/raiko.git", branch = "sp1-cycle-tracker", features = ["std", "sp1"] }
@@ -21,26 +24,12 @@ revm-precompile = { git = "https://github.com/taikoxyz/revm.git", branch = "v35_
 revm-primitives = { git = "https://github.com/taikoxyz/revm.git", branch = "v35_taiko_v2", default-features = false }
 sha2-v0-10-8 = { git = "https://github.com/sp1-patches/RustCrypto-hashes", package = "sha2", branch = "v0.10.8" }
 sp1-precompiles = { git = "https://github.com/succinctlabs/sp1.git", branch = "main"}
+sp1-derive = { git = "https://github.com/succinctlabs/sp1.git", branch = "main"}
 
+hashes = { package = "bitcoin_hashes", version = ">= 0.12, <= 0.14", default-features = false }
+secp256k1 = { git = "https://github.com/CeciliaZ030/rust-secp256k1", branch = "sp1-patch", features = ["recovery"]}
 
 [patch.crates-io]
 ecdsa = { git = "https://github.com/taikoxyz/signatures.git", branch = "0.16.9", package = "ecdsa", default-features = false, features = ["der"] }
 tiny-keccak = { git = "https://github.com/sp1-patches/tiny-keccak", branch = "patch-v2.0.2" }
 
-# alloy-primitives = { path = "../../core/crates/primitives"}
-# [patch."https://github.com/brechtpd/alloy"]
-# alloy-consensus = { path = "../../alloy/crates/consensus" }
-# alloy-rpc-types = { path = "../../alloy/crates/rpc-types"}
-# alloy-rpc-client = { path = "../../alloy/crates/rpc-client"}
-
-# alloy-network = { path = "../../alloy/crates/network", features = [
-#     "k256",
-# ] }
-# alloy-contract = { path = "../../alloy/crates/contract"}
-# alloy-eips = { path = "../../alloy/crates/eips", features = [
-#     "serde",
-# ] }
-# alloy-provider = { path = "../../alloy/crates/provider"}
-# alloy-transport-http = { path = "../../alloy/crates/transport-http"}
-# alloy-signer = { path = "../../alloy/crates/signer"}
-# alloy-signer-wallet = { path = "../../alloy/crates/signer-wallet"}
