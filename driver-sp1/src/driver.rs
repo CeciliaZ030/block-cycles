@@ -8,6 +8,8 @@ const ELF: &[u8] = include_bytes!("../../guest-sp1/elf/guest");
 
 const KECCAK: &[u8] = include_bytes!("../../guest-sp1/elf/keccak");
 
+const SECP256K1: &[u8] = include_bytes!("../../guest-sp1/elf/secp256k1");
+
 const TEST: &[u8] = include_bytes!("../../guest-sp1/elf/test-guest");
 
 fn main() {
@@ -29,7 +31,7 @@ fn main() {
 
     // Generate the proof for the given program.
     let client = ProverClient::new();
-    let (pk, vk) = client.setup(TEST);
+    let (pk, vk) = client.setup(SECP256K1);
     let proof = client.prove(&pk, stdin).unwrap();
 
     let end = start.elapsed();

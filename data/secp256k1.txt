@@ -1,0 +1,14 @@
+2024-06-11T17:27:46.842473Z DEBUG setup:setup machine:commit to preprocessed traces: close time.busy=423ms time.idle=3.71µs
+2024-06-11T17:27:46.842493Z DEBUG setup:setup machine: close time.busy=1.18s time.idle=1.19µs
+2024-06-11T17:27:46.846687Z DEBUG setup: close time.busy=1.22s time.idle=1.89µs
+2024-06-11T17:27:46.877028Z  INFO execute: loading memory image
+2024-06-11T17:27:46.899079Z  INFO execute: starting execution
+2024-06-11T17:27:46.899124Z  INFO execute: clk = 0 pc = 0x202508    
+2024-06-11T17:27:46.899215Z DEBUG execute: ┌╴sign_recover    
+2024-06-11T17:27:46.926345Z DEBUG execute: │ ┌╴sign    
+2024-06-11T17:27:47.066870Z  INFO execute: │ └╴1,101,016 cycles    
+2024-06-11T17:27:47.066959Z DEBUG execute: │ ┌╴recover    
+2024-06-11T17:27:47.372553Z  INFO execute: │ └╴379,598 cycles    
+2024-06-11T17:27:47.372628Z  INFO execute: └╴1,691,304 cycles    
+2024-06-11T17:27:47.373276Z  INFO execute: finished execution clk = 1696694 pc = 0x0
+2024-06-11T17:27:47.384663Z  INFO execute: close time.busy=538ms time.idle=2.45µs
