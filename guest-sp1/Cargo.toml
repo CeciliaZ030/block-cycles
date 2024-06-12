@@ -11,6 +11,14 @@ path = "src/keccak.rs"
 name = "secp256k1"
 path = "src/secp256k1.rs"
 
+[[bin]]
+name = "kzg-z"
+path = "src/kzg_z.rs"
+
+[[bin]]
+name = "kzg-a"
+path = "src/kzg_a.rs"
+
 [dependencies]
 sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git", branch = "main" }
 harness = { git = "https://github.com/taikoxyz/raiko.git", branch = "sp1-cycle-tracker", features = ["sp1"]}
@@ -27,7 +35,14 @@ sp1-precompiles = { git = "https://github.com/succinctlabs/sp1.git", branch = "m
 sp1-derive = { git = "https://github.com/succinctlabs/sp1.git", branch = "main"}
 
 hashes = { package = "bitcoin_hashes", version = ">= 0.12, <= 0.14", default-features = false }
-secp256k1 = { git = "https://github.com/CeciliaZ030/rust-secp256k1", branch = "sp1-patch", features = ["recovery"]}
+secp256k1 = { git = "https://github.com/CeciliaZ030/rust-secp256k1", branch = "sp1-patch", features = ["recovery", "sp1"]}
+
+rust-kzg-zkcrypto = {path = "../../rust-kzg/zkcrypto", default-features = false}
+kzg = { path = "../../rust-kzg/kzg", default-features = false}
+
+
+# rust-kzg-zkcrypto = { git = "https://github.com/grandinetech/rust-kzg.git", default-features = false}
+rust-kzg-arkworks = { git = "https://github.com/grandinetech/rust-kzg.git", default-features = false}
 
 [patch.crates-io]
 ecdsa = { git = "https://github.com/taikoxyz/signatures.git", branch = "0.16.9", package = "ecdsa", default-features = false, features = ["der"] }

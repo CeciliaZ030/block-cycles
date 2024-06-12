@@ -3,7 +3,6 @@ name = "driver"
 version = "0.1.0"
 edition = "2021"
 
-
 [[bin]]
 name = "builder"
 path = "src/builder.rs"
@@ -11,6 +10,10 @@ path = "src/builder.rs"
 [[bin]]
 name = "driver"
 path = "src/driver.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
 
 [dependencies]
 raiko-pipeline = {path = "../../raiko/pipeline", features = ["sp1", "risc0"]}
@@ -20,3 +23,12 @@ sp1-derive = { git = "https://github.com/succinctlabs/sp1.git", branch = "main"}
 serde_json = { version = "1.0", default-features = false, features = ["alloc"] }
 raiko-lib = {path = "../../raiko/lib", features = ["std", "sp1"] }
 
+rust-kzg-zkcrypto = { path = "../../rust-kzg/zkcrypto" }
+kzg = { path = "../../rust-kzg/kzg" }
+
+# rust-kzg-zkcrypto = { git = "https://github.com/grandinetech/rust-kzg.git" }
+rust-kzg-arkworks = { git = "https://github.com/grandinetech/rust-kzg.git" }
+
+# [features]
+# default = ["kzg"]
+# kzg = ["dep:rust-kzg-zkcrypto"]
