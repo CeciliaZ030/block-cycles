@@ -1,0 +1,46 @@
+2024-06-12T20:25:45.905377Z  INFO execute: loading memory image
+2024-06-12T20:25:45.907875Z  INFO execute: starting execution
+2024-06-12T20:25:45.907891Z  INFO execute: clk = 0 pc = 0x203ce4    
+2024-06-12T20:25:45.908283Z DEBUG execute: ┌╴load kzg_setting    
+2024-06-12T20:25:46.496903Z  INFO execute: └╴7,783,656 cycles    
+2024-06-12T20:25:46.496969Z DEBUG execute: ┌╴read blob    
+2024-06-12T20:25:46.557434Z  INFO execute: └╴815,690 cycles    
+2024-06-12T20:25:46.557497Z DEBUG execute: ┌╴blob_to_kzg_commitment_rust    
+2024-06-12T20:25:46.689752Z  INFO execute: clk = 10000000 pc = 0x2060ac    
+2024-06-12T20:25:47.353332Z  INFO execute: clk = 20000000 pc = 0x218b3c    
+2024-06-12T20:25:48.019065Z  INFO execute: clk = 30000000 pc = 0x20ae70    
+......
+024-06-12T20:34:17.819632Z  INFO execute: clk = 7700000000 pc = 0x20d8cc    
+2024-06-12T20:34:17.902761Z  INFO execute: └╴7,692,653,487 cycles    
+2024-06-12T20:34:17.903111Z  INFO execute: finished execution clk = 7701259597 pc = 0x0
+2024-06-12T20:34:17.961460Z  INFO execute: close time.busy=512s time.idle=2.04µs
+
+2024-06-14T05:10:41.906461Z DEBUG setup:setup machine:commit to preprocessed traces: close time.busy=139ms time.idle=2.15µs
+2024-06-14T05:10:41.906480Z DEBUG setup:setup machine: close time.busy=845ms time.idle=600ns
+2024-06-14T05:10:41.906963Z DEBUG setup: close time.busy=850ms time.idle=1.15µs
+2024-06-14T05:10:41.911141Z  INFO execute: loading memory image
+2024-06-14T05:10:41.913116Z  INFO execute: starting execution
+2024-06-14T05:10:41.913132Z  INFO execute: clk = 0 pc = 0x205014    
+2024-06-14T05:10:41.913288Z DEBUG execute: ┌╴load kzg_setting    
+2024-06-14T05:10:42.544001Z  INFO execute: └╴8,362,568 cycles    
+2024-06-14T05:10:42.544066Z DEBUG execute: ┌╴read blob    
+2024-06-14T05:10:42.584997Z  INFO execute: └╴590,548 cycles    
+2024-06-14T05:10:42.585058Z DEBUG execute: ┌╴deserialize_blob_rust    
+2024-06-14T05:10:42.653180Z  INFO execute: clk = 10000000 pc = 0x2068f4    
+2024-06-14T05:10:43.087086Z  INFO execute: └╴7,710,650 cycles    
+2024-06-14T05:10:43.087132Z DEBUG execute: ┌╴? read blob fields directly    
+2024-06-14T05:10:43.141133Z  INFO execute: └╴815,706 cycles    
+2024-06-14T05:10:43.141175Z DEBUG execute: ┌╴PolyData::from_coeffs    
+2024-06-14T05:10:43.153636Z  INFO execute: └╴180,679 cycles    
+2024-06-14T05:10:43.153678Z DEBUG execute: ┌╴tiny-keccak    
+2024-06-14T05:10:43.227450Z  INFO execute: └╴1,070,848 cycles    
+2024-06-14T05:10:43.227493Z DEBUG execute: ┌╴hash_to_bls_field    
+2024-06-14T05:10:43.227633Z  INFO execute: └╴1,906 cycles    
+2024-06-14T05:10:43.227668Z DEBUG execute: ┌╴evaluate_polynomial_in_evaluation_form    
+2024-06-14T05:10:43.311726Z  INFO execute: clk = 20000000 pc = 0x20e1b0    
+2024-06-14T05:10:43.975118Z  INFO execute: clk = 30000000 pc = 0x206464    
+2024-06-14T05:10:44.632097Z  INFO execute: clk = 40000000 pc = 0x208f08    
+2024-06-14T05:10:45.287293Z  INFO execute: clk = 50000000 pc = 0x206790    
+2024-06-14T05:10:45.319802Z  INFO execute: └╴31,755,132 cycles    
+2024-06-14T05:10:45.320158Z  INFO execute: finished execution clk = 50496742 pc = 0x0
+2024-06-14T05:10:45.342732Z  INFO execute: close time.busy=3.44s time.idle=1.28µs

@@ -6,7 +6,7 @@ use std::path::PathBuf;
 fn main() {
     let pipeline = Sp1Pipeline::new("../guest-sp1", "release");
     // pipeline.bins(&["guest", "keccak", "secp256k1"], "../guest-sp1/elf");
-    pipeline.bins(&["kzg-z"], "../guest-sp1/elf");
+    pipeline.bins(&["kzg-a"], "../guest-sp1/elf");
 
     pipeline.tests(&["guest"], "../guest-sp1/elf");
 }

@@ -23,11 +23,12 @@ sp1-derive = { git = "https://github.com/succinctlabs/sp1.git", branch = "main"}
 serde_json = { version = "1.0", default-features = false, features = ["alloc"] }
 raiko-lib = {path = "../../raiko/lib", features = ["std", "sp1"] }
 
-rust-kzg-zkcrypto = { path = "../../rust-kzg/zkcrypto" }
+# rust-kzg-zkcrypto = { path = "../../rust-kzg/zkcrypto" }
 kzg = { path = "../../rust-kzg/kzg" }
+serde = { version = "1.0"}
 
 # rust-kzg-zkcrypto = { git = "https://github.com/grandinetech/rust-kzg.git" }
-rust-kzg-arkworks = { git = "https://github.com/grandinetech/rust-kzg.git" }
+rust-kzg-arkworks =  { path = "../../rust-kzg/arkworks" }
 
 # [features]
 # default = ["kzg"]

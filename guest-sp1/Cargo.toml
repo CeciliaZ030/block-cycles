@@ -38,11 +38,13 @@ hashes = { package = "bitcoin_hashes", version = ">= 0.12, <= 0.14", default-fea
 secp256k1 = { git = "https://github.com/CeciliaZ030/rust-secp256k1", branch = "sp1-patch", features = ["recovery", "sp1"]}
 
 rust-kzg-zkcrypto = {path = "../../rust-kzg/zkcrypto", default-features = false}
+rust-kzg-arkworks = {path = "../../rust-kzg/arkworks", default-features = false}
 kzg = { path = "../../rust-kzg/kzg", default-features = false}
+tiny-keccak = { git = "https://github.com/sp1-patches/tiny-keccak", branch = "patch-v2.0.2" }
 
 
 # rust-kzg-zkcrypto = { git = "https://github.com/grandinetech/rust-kzg.git", default-features = false}
-rust-kzg-arkworks = { git = "https://github.com/grandinetech/rust-kzg.git", default-features = false}
+# rust-kzg-arkworks = { git = "https://github.com/grandinetech/rust-kzg.git", default-features = false}
 
 [patch.crates-io]
 ecdsa = { git = "https://github.com/taikoxyz/signatures.git", branch = "0.16.9", package = "ecdsa", default-features = false, features = ["der"] }

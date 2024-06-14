@@ -10,6 +10,8 @@ const SECP256K1: &[u8] = include_bytes!("../../guest-sp1/elf/secp256k1");
 
 const KZG_Z: &[u8] = include_bytes!("../../guest-sp1/elf/kzg-z");
 
+const KZG_A: &[u8] = include_bytes!("../../guest-sp1/elf/kzg-a");
+
 const TEST: &[u8] = include_bytes!("../../guest-sp1/elf/test-guest");
 
 // #[cfg(not(feature = "kzg"))]
@@ -54,7 +56,7 @@ fn main_() {
 // #[cfg(feature = "kzg")]
 fn main() {
     use kzg::eip_4844::{Blob, BYTES_PER_BLOB};
-    use rust_kzg_zkcrypto::eip_4844::deserialize_blob_rust;
+    use rust_kzg_arkworks::eip_4844::deserialize_blob_rust;
 
     // Setup a tracer for logging.
     utils::setup_logger();
@@ -62,25 +64,26 @@ fn main() {
     let start = std::time::Instant::now();
 
     let kzg_setting =
-        rust_kzg_zkcrypto::eip_4844::load_trusted_setup_filename_rust("./trusted_setup.txt")
+        rust_kzg_arkworks::eip_4844::load_trusted_setup_filename_rust("./trusted_setup.txt")
             .unwrap();
     let end = start.elapsed();
     println!("Driver: load kzg data and precomputate setup {:?}", end);
-    let blob = deserialize_blob_rust(&Blob {
+    let blob = Blob {
         bytes: [6u8; BYTES_PER_BLOB],
-    })
-    .unwrap();
+    };
+    let blob_fields = deserialize_blob_rust(&blob).unwrap();
 
     // Create an input stream.
     let mut stdin = SP1Stdin::new();
     stdin.write(&kzg_setting);
     stdin.write(&blob);
+    stdin.write(&blob_fields);
 
     let start = std::time::Instant::now();
 
     // Generate the proof for the given program.
     let client = ProverClient::new();
-    let (pk, vk) = client.setup(KZG_Z);
+    let (pk, vk) = client.setup(KZG_A);
     let proof = client.prove(&pk, stdin).unwrap();
 
     let end = start.elapsed();

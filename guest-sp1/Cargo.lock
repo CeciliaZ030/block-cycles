@@ -1110,7 +1110,7 @@ dependencies = [
  "bitcoin_hashes",
  "harness",
  "harness-core",
- "kzg 0.1.0",
+ "kzg",
  "raiko-lib",
  "revm-precompile 6.0.0 (git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2)",
  "revm-primitives 3.1.1 (git+https://github.com/taikoxyz/revm.git?branch=v35_taiko_v2)",
@@ -1121,6 +1121,7 @@ dependencies = [
  "sp1-derive",
  "sp1-precompiles",
  "sp1-zkvm",
+ "tiny-keccak",
 ]
 
 [[package]]
@@ -1493,16 +1494,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "kzg"
-version = "0.1.0"
-source = "git+https://github.com/grandinetech/rust-kzg.git#1c9f4435a32f5ad7ffb73e299a33b212340fe86b"
-dependencies = [
- "blst",
- "sha2 0.10.8 (registry+https://github.com/rust-lang/crates.io-index)",
- "siphasher",
-]
-
-[[package]]
 name = "lazy_static"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1567,9 +1558,9 @@ checksum = "90ed8c1e510134f979dbc4f070f87d4313098b704861a105fe34231c70a3901c"
 
 [[package]]
 name = "memchr"
-version = "2.7.2"
+version = "2.7.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6c8640c5d730cb13ebd907d8d04b52f55ac9a2eec55b440c8892f40d56c76c1d"
+checksum = "78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3"
 
 [[package]]
 name = "miniz_oxide"
@@ -2122,7 +2113,6 @@ checksum = "48fd7bd8a6377e15ad9d42a8ec25371b94ddc67abe7c8b9127bec79bebaaae18"
 [[package]]
 name = "rust-kzg-arkworks"
 version = "0.1.0"
-source = "git+https://github.com/grandinetech/rust-kzg.git#1c9f4435a32f5ad7ffb73e299a33b212340fe86b"
 dependencies = [
  "ark-bls12-381",
  "ark-ec",
@@ -2132,8 +2122,10 @@ dependencies = [
  "ark-std 0.4.0",
  "blst",
  "hex",
- "kzg 0.1.0 (git+https://github.com/grandinetech/rust-kzg.git)",
+ "kzg",
  "libc",
+ "serde",
+ "serde_with 2.3.3",
 ]
 
 [[package]]
@@ -2145,7 +2137,7 @@ dependencies = [
  "byteorder",
  "ff",
  "hex",
- "kzg 0.1.0",
+ "kzg",
  "libc",
  "serde",
  "serde_with 2.3.3",
@@ -2473,7 +2465,7 @@ dependencies = [
 [[package]]
 name = "sp1-derive"
 version = "0.1.0"
-source = "git+https://github.com/succinctlabs/sp1.git?branch=main#8c0f5010606f9c2306effe60412d421c23e88afa"
+source = "git+https://github.com/succinctlabs/sp1.git?branch=main#b35be4200e7369bd987d8ba101f70dd7dec3df1a"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -2483,7 +2475,7 @@ dependencies = [
 [[package]]
 name = "sp1-precompiles"
 version = "0.1.0"
-source = "git+https://github.com/succinctlabs/sp1.git?branch=main#8c0f5010606f9c2306effe60412d421c23e88afa"
+source = "git+https://github.com/succinctlabs/sp1.git?branch=main#b35be4200e7369bd987d8ba101f70dd7dec3df1a"
 dependencies = [
  "anyhow",
  "bincode",
@@ -2500,12 +2492,13 @@ dependencies = [
 [[package]]
 name = "sp1-zkvm"
 version = "0.1.0"
-source = "git+https://github.com/succinctlabs/sp1.git?branch=main#8c0f5010606f9c2306effe60412d421c23e88afa"
+source = "git+https://github.com/succinctlabs/sp1.git?branch=main#b35be4200e7369bd987d8ba101f70dd7dec3df1a"
 dependencies = [
  "bincode",
  "cfg-if",
  "getrandom",
  "k256",
+ "lazy_static",
  "libm",
  "once_cell",
  "rand",
