@@ -21,8 +21,8 @@
     ],
     "rust-analyzer.linkedProjects": [
         "driver-r0/Cargo.toml",
-        "driver-sp1/Cargo.toml",
-        "guest-sp1/Cargo.toml",
+        // "driver-sp1/Cargo.toml",
+        "guest-r0/Cargo.toml",
     ],
     "rust-analyzer.showUnlinkedFileNotification": false,
     // "rust-analyzer.showUnlinkedFileNotification": false,

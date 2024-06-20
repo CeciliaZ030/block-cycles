@@ -48,7 +48,7 @@ fn main() {
     println!("cycle-tracker-end: evaluate_polynomial_in_evaluation_form");
 
     // println!("cycle-tracker-start: blob_to_kzg_commitment_rust");
-    // blob_to_kzg_commitment_rust(&blob, &kzg_setting).unwrap();
+    blob_to_kzg_commitment_rust(&blob, &kzg_setting).unwrap();
     // println!("cycle-tracker-end: blob_to_kzg_commitment_rust");
 }
 

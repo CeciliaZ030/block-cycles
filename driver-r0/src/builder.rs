@@ -5,7 +5,7 @@ use std::path::PathBuf;
 
 fn main() {
     let pipeline = Risc0Pipeline::new("../guest-r0", "release");
-    pipeline.bins(&["guest"], "../guest-r0/elf");
+    pipeline.bins(&["kzg-c"], "./src");
 }
 
 pub struct Risc0Pipeline {

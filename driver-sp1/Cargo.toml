@@ -30,6 +30,8 @@ serde = { version = "1.0"}
 # rust-kzg-zkcrypto = { git = "https://github.com/grandinetech/rust-kzg.git" }
 rust-kzg-arkworks =  { path = "../../rust-kzg/arkworks" }
 
-# [features]
-# default = ["kzg"]
-# kzg = ["dep:rust-kzg-zkcrypto"]
+c-kzg = { package = "c-kzg-taiko", git = "https://github.com/smtmfft/c-kzg-4844", branch = "for-alpha7", default-features = false, features = [
+    "preload-kzg-settings",
+    "no-threads",
+]}
+once_cell = { version = "1.19", default-features = false }

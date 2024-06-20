@@ -1,3 +1,5 @@
+use std::cell::UnsafeCell;
+
 use kzg::{
     eip_4844::{evaluate_polynomial_in_evaluation_form, hash_to_bls_field, Blob, BYTES_PER_BLOB},
     Poly,
@@ -31,5 +33,3 @@ fn main() {
     let y = evaluate_polynomial_in_evaluation_form(&poly, &x, &kzg_setting)
         .expect("Failed to evaluate polynomial at hashed point");
 }
-
-// fn main() {}

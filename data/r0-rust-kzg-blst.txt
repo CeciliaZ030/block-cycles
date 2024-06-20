@@ -1,0 +1,9 @@
+warning: `driver` (bin "driver") generated 9 warnings (run `cargo fix --bin "driver"` to apply 2 suggestions)
+    Finished `release` profile [optimized] target(s) in 11.55s
+     Running `target/release/driver`
+Hello, world!
+2024-06-20T05:06:31.697379Z  INFO executor: risc0_zkvm::host::server::exec::executor: execution time: 366.593552062s
+2024-06-20T05:06:31.697422Z  INFO executor: risc0_zkvm::host::server::session: number of segments: 5420
+2024-06-20T05:06:31.697436Z  INFO executor: risc0_zkvm::host::server::session: total cycles: 5682364416
+2024-06-20T05:06:31.697442Z  INFO executor: risc0_zkvm::host::server::session: user cycles: 5386719719
+ubuntu@ip-172-31-17-83:~/block-cycles/driver-r0$ 

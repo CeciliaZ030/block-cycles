@@ -7,12 +7,29 @@ edition = "2021"
 name = "builder"
 path = "src/builder.rs"
 
+# [[bin]]
+# name = "driver"
+# path = "src/driver.rs"
+
+
 [[bin]]
-name = "driver"
-path = "src/driver.rs"
+name = "driver2"
+path = "src/driver2.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
 
 [dependencies]
-raiko-pipeline = {path = "../../raiko", features = ["risc0"]}
+raiko-pipeline = {path = "../../raiko/pipeline", features = ["risc0"]}
 risc0-zkvm = { git = "https://github.com/risc0/risc0.git", features = ["prove", "getrandom"]}
 cycle-counter = { git = "https://github.com/risc0/risc0.git" }
 
+c-kzg = { package = "c-kzg-taiko", git = "https://github.com/smtmfft/c-kzg-4844", branch = "for-alpha7", default-features = false, features = [
+    "preload-kzg-settings",
+    "no-threads",
+] }
+hex = { version = "0.4", default-features = false }
+
+# rust-kzg-blst = {path = "../../rust-kzg/blst", default-features = false}
+# kzg = { path = "../../rust-kzg/kzg", default-features = false}

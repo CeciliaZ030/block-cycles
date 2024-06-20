@@ -23,7 +23,7 @@ dependencies = [
  "fallible-iterator",
  "gimli",
  "memmap2",
- "object",
+ "object 0.35.0",
  "rustc-demangle",
  "smallvec",
 ]
@@ -98,9 +98,9 @@ dependencies = [
 
 [[package]]
 name = "anstyle-query"
-version = "1.0.3"
+version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a64c907d4e79225ac72e2a354c9ce84d50ebb4586dee56c82b3ee73004f537f5"
+checksum = "ad186efb764318d35165f1758e7dcef3b10628e26d41a44bc5550652e6804391"
 dependencies = [
  "windows-sys 0.52.0",
 ]
@@ -327,16 +327,16 @@ checksum = "0c4b4d0bd25bd0b74681c0ad21497610ce1b7c91b1022cd21c80c6fbdd9476b0"
 
 [[package]]
 name = "backtrace"
-version = "0.3.72"
+version = "0.3.73"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "17c6a35df3749d2e8bb1b7b21a976d82b15548788d2735b9d82f329268f71a11"
+checksum = "5cc23269a4f8976d0a4d2e7109211a419fe30e8d88d677cd60b6bc79c5732e0a"
 dependencies = [
  "addr2line",
  "cc",
  "cfg-if",
  "libc",
  "miniz_oxide",
- "object",
+ "object 0.36.0",
  "rustc-demangle",
 ]
 
@@ -367,7 +367,7 @@ checksum = "8c3c1a368f70d6cf7302d78f8f7093da241fb8e8807c05cc9e51a125895a6d5b"
 [[package]]
 name = "bevy-methods"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "risc0-build",
 ]
@@ -430,11 +430,23 @@ dependencies = [
 ]
 
 [[package]]
-name = "bonsai-sdk"
-version = "0.8.0-rc.3"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+name = "blst"
+version = "0.3.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "62dc83a094a71d43eeadd254b1ec2d24cb6a0bb6cadce00df51f0db594711a32"
 dependencies = [
- "reqwest 0.12.4",
+ "cc",
+ "glob",
+ "threadpool",
+ "zeroize",
+]
+
+[[package]]
+name = "bonsai-sdk"
+version = "0.8.0"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
+dependencies = [
+ "reqwest 0.12.5",
  "risc0-groth16",
  "serde",
  "thiserror",
@@ -442,9 +454,9 @@ dependencies = [
 
 [[package]]
 name = "borsh"
-version = "1.5.0"
+version = "1.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dbe5b10e214954177fb1dc9fbd20a1a2608fe99e6c832033bdc7cea287a20d77"
+checksum = "a6362ed55def622cddc70a4746a68554d7b687713770de539e59a739b249f8ed"
 dependencies = [
  "borsh-derive",
  "cfg_aliases",
@@ -452,9 +464,9 @@ dependencies = [
 
 [[package]]
 name = "borsh-derive"
-version = "1.5.0"
+version = "1.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d7a8646f94ab393e43e8b35a2558b1624bed28b97ee09c5d15456e3c9463f46d"
+checksum = "c3ef8005764f53cd4dca619f5bf64cafd4664dada50ece25e4d81de54c80cc0b"
 dependencies = [
  "once_cell",
  "proc-macro-crate",
@@ -494,9 +506,9 @@ dependencies = [
 
 [[package]]
 name = "bytemuck"
-version = "1.16.0"
+version = "1.16.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "78834c15cb5d5efe3452d58b1e8ba890dd62d21907f867f383358198e56ebca5"
+checksum = "b236fc92302c97ed75b38da1f4917b5cdda4984745740f153a5d3059e48d725e"
 dependencies = [
  "bytemuck_derive",
 ]
@@ -525,6 +537,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "514de17de45fdb8dc022b1a7975556c53c86f9f0aa5f534b98977b171857c2c9"
 dependencies = [
  "serde",
+]
+
+[[package]]
+name = "c-kzg-taiko"
+version = "1.0.0"
+source = "git+https://github.com/smtmfft/c-kzg-4844?branch=for-alpha7#a2d3ae768eede8228920619c98c87584ad8afd09"
+dependencies = [
+ "blst",
+ "cc",
+ "glob",
+ "hex",
+ "libc",
 ]
 
 [[package]]
@@ -574,9 +598,9 @@ dependencies = [
 
 [[package]]
 name = "cc"
-version = "1.0.98"
+version = "1.0.99"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "41c270e7540d725e65ac7f1b212ac8ce349719624d7bcff99f8e2e488e8cf03f"
+checksum = "96c51067fd44124faa7f870b4b1c969379ad32b2ba805aa959430ceaa384f695"
 dependencies = [
  "jobserver",
  "libc",
@@ -591,14 +615,14 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
 name = "cfg_aliases"
-version = "0.1.1"
+version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fd16c4719339c4530435d38e511904438d07cce7950afa3718a84ac36c10e89e"
+checksum = "613afe47fcd5fac7ccf1db93babcb082c5994d996f20b8b159f2ad1658eb5724"
 
 [[package]]
 name = "chess-core"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "serde",
 ]
@@ -606,7 +630,7 @@ dependencies = [
 [[package]]
 name = "chess-methods"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "risc0-build",
 ]
@@ -622,9 +646,9 @@ dependencies = [
 
 [[package]]
 name = "clap"
-version = "4.5.4"
+version = "4.5.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "90bc066a67923782aa8515dbaea16946c5bcc5addbd668bb80af688e53e548a0"
+checksum = "5db83dced34638ad474f39f250d7fea9598bdd239eaced1bdf45d597da0f433f"
 dependencies = [
  "clap_builder",
  "clap_derive",
@@ -632,9 +656,9 @@ dependencies = [
 
 [[package]]
 name = "clap_builder"
-version = "4.5.2"
+version = "4.5.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ae129e2e766ae0ec03484e609954119f123cc1fe650337e155d03b022f24f7b4"
+checksum = "f7e204572485eb3fbf28f871612191521df159bc3e15a9f5064c66dba3a8c05f"
 dependencies = [
  "anstream",
  "anstyle",
@@ -644,9 +668,9 @@ dependencies = [
 
 [[package]]
 name = "clap_derive"
-version = "4.5.4"
+version = "4.5.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "528131438037fd55894f62d6e9f068b8f45ac57ffa77517819645d10aed04f64"
+checksum = "c780290ccf4fb26629baa7a1081e68ced113f1d3ec302fa5948f1c381ebf06c6"
 dependencies = [
  "heck",
  "proc-macro2",
@@ -656,9 +680,9 @@ dependencies = [
 
 [[package]]
 name = "clap_lex"
-version = "0.7.0"
+version = "0.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "98cc8fbded0c607b7ba9dd60cd98df59af97e84d24e49c8557331cfc26d301ce"
+checksum = "4b82cf0babdbd58558212896d1a4272303a57bdb245c2bf1147185fb45640e70"
 
 [[package]]
 name = "color_quant"
@@ -829,7 +853,7 @@ dependencies = [
 [[package]]
 name = "cycle-counter"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "bevy-methods",
  "chess-core",
@@ -910,13 +934,13 @@ dependencies = [
 
 [[package]]
 name = "derive_more"
-version = "0.99.17"
+version = "0.99.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4fb810d30a7c1953f91334de7244731fc3f3c10d7fe163338a35b9f640960321"
+checksum = "5f33878137e4dafd7fa914ad4e259e18a4e8e532b9617a2d0150262bf53abfce"
 dependencies = [
  "proc-macro2",
  "quote 1.0.36",
- "syn 1.0.109",
+ "syn 2.0.66",
 ]
 
 [[package]]
@@ -934,7 +958,7 @@ dependencies = [
 [[package]]
 name = "digital-signature-core"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "risc0-zkvm",
  "serde",
@@ -943,7 +967,7 @@ dependencies = [
 [[package]]
 name = "digital-signature-methods"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "risc0-build",
 ]
@@ -1025,7 +1049,9 @@ dependencies = [
 name = "driver"
 version = "0.1.0"
 dependencies = [
+ "c-kzg-taiko",
  "cycle-counter",
+ "hex",
  "raiko-pipeline",
  "risc0-zkvm",
 ]
@@ -1048,7 +1074,7 @@ dependencies = [
 [[package]]
 name = "ecdsa-methods"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "risc0-build",
 ]
@@ -1445,7 +1471,7 @@ checksum = "2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea"
 [[package]]
 name = "hello-world-methods"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "risc0-build",
 ]
@@ -1531,12 +1557,12 @@ dependencies = [
 
 [[package]]
 name = "http-body-util"
-version = "0.1.1"
+version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0475f8b2ac86659c21b64320d5d653f9efe42acd2a4e560073ec61a155a34f1d"
+checksum = "793429d76616a256bcb62c2a2ec2bed781c8307e797e2598c50010f2bee2544f"
 dependencies = [
  "bytes",
- "futures-core",
+ "futures-util",
  "http 1.1.0",
  "http-body 1.0.0",
  "pin-project-lite",
@@ -1544,9 +1570,9 @@ dependencies = [
 
 [[package]]
 name = "httparse"
-version = "1.8.0"
+version = "1.9.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d897f394bad6a705d5f4104762e116a75639e470d80901eed05a860a95cb1904"
+checksum = "0fcc0b4a115bf80b728eb8ea024ad5bd707b615bfed49e0665b6e0f86fd082d9"
 
 [[package]]
 name = "httpdate"
@@ -1556,9 +1582,9 @@ checksum = "df3b46402a9d5adb4c86a0cf463f42e19994e3ee891101b1841f30a545cb49a9"
 
 [[package]]
 name = "hyper"
-version = "0.14.28"
+version = "0.14.29"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bf96e135eb83a2a8ddf766e426a841d8ddd7449d5f00d34ea02b41d2f19eef80"
+checksum = "f361cde2f109281a220d4307746cdfd5ee3f410da58a70377762396775634b33"
 dependencies = [
  "bytes",
  "futures-channel",
@@ -1605,7 +1631,7 @@ checksum = "ec3efd23720e2049821a693cbc7e65ea87c72f1c58ff2f9522ff332b1491e590"
 dependencies = [
  "futures-util",
  "http 0.2.12",
- "hyper 0.14.28",
+ "hyper 0.14.29",
  "rustls 0.21.12",
  "tokio",
  "tokio-rustls 0.24.1",
@@ -1613,19 +1639,20 @@ dependencies = [
 
 [[package]]
 name = "hyper-rustls"
-version = "0.26.0"
+version = "0.27.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a0bea761b46ae2b24eb4aef630d8d1c398157b6fc29e6350ecf090a0b70c952c"
+checksum = "5ee4be2c948921a1a5320b629c4193916ed787a7f7f293fd3f7f5a6c9de74155"
 dependencies = [
  "futures-util",
  "http 1.1.0",
  "hyper 1.3.1",
  "hyper-util",
- "rustls 0.22.4",
+ "rustls 0.23.10",
  "rustls-pki-types",
  "tokio",
- "tokio-rustls 0.25.0",
+ "tokio-rustls 0.26.0",
  "tower-service",
+ "webpki-roots 0.26.3",
 ]
 
 [[package]]
@@ -1758,7 +1785,7 @@ dependencies = [
 [[package]]
 name = "json-methods"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "risc0-build",
 ]
@@ -1890,9 +1917,9 @@ dependencies = [
 
 [[package]]
 name = "memchr"
-version = "2.7.2"
+version = "2.7.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6c8640c5d730cb13ebd907d8d04b52f55ac9a2eec55b440c8892f40d56c76c1d"
+checksum = "78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3"
 
 [[package]]
 name = "memmap2"
@@ -1928,9 +1955,9 @@ checksum = "6877bb514081ee2a7ff5ef9de3281f14a4dd4bceac4c09388074a6b5df8a139a"
 
 [[package]]
 name = "miniz_oxide"
-version = "0.7.3"
+version = "0.7.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "87dfd01fe195c66b572b37921ad8803d010623c0aca821bea2302239d155cdae"
+checksum = "b8a240ddb74feaf34a79a7add65a741f3167852fba007066dcac1ca548d89c08"
 dependencies = [
  "adler",
  "simd-adler32",
@@ -2086,6 +2113,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "object"
+version = "0.36.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "576dfe1fc8f9df304abb159d767a29d0476f7750fbf8aa7ad07816004a207434"
+dependencies = [
+ "memchr",
+]
+
+[[package]]
 name = "once_cell"
 version = "1.19.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2129,7 +2165,7 @@ dependencies = [
 [[package]]
 name = "password-checker-core"
 version = "0.12.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "serde",
 ]
@@ -2137,7 +2173,7 @@ dependencies = [
 [[package]]
 name = "password-checker-methods"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "risc0-build",
 ]
@@ -2266,9 +2302,9 @@ dependencies = [
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.84"
+version = "1.0.85"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ec96c6a92621310b51366f1e28d05ef11489516e93be030060e5fc12024a49d6"
+checksum = "22244ce15aa966053a896d1accb3a6e68469b97c7f33f284b99f0d576879fc23"
 dependencies = [
  "unicode-ident",
 ]
@@ -2276,7 +2312,7 @@ dependencies = [
 [[package]]
 name = "prorata-core"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "csv",
  "hex",
@@ -2289,7 +2325,7 @@ dependencies = [
 [[package]]
 name = "prorata-methods"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "risc0-build",
 ]
@@ -2347,6 +2383,53 @@ dependencies = [
 ]
 
 [[package]]
+name = "quinn"
+version = "0.11.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e4ceeeeabace7857413798eb1ffa1e9c905a9946a57d81fb69b4b71c4d8eb3ad"
+dependencies = [
+ "bytes",
+ "pin-project-lite",
+ "quinn-proto",
+ "quinn-udp",
+ "rustc-hash",
+ "rustls 0.23.10",
+ "thiserror",
+ "tokio",
+ "tracing",
+]
+
+[[package]]
+name = "quinn-proto"
+version = "0.11.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ddf517c03a109db8100448a4be38d498df8a210a99fe0e1b9eaf39e78c640efe"
+dependencies = [
+ "bytes",
+ "rand",
+ "ring",
+ "rustc-hash",
+ "rustls 0.23.10",
+ "slab",
+ "thiserror",
+ "tinyvec",
+ "tracing",
+]
+
+[[package]]
+name = "quinn-udp"
+version = "0.5.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9096629c45860fc7fb143e125eb826b5e721e10be3263160c7d60ca832cf8c46"
+dependencies = [
+ "libc",
+ "once_cell",
+ "socket2",
+ "tracing",
+ "windows-sys 0.52.0",
+]
+
+[[package]]
 name = "quote"
 version = "0.3.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2370,7 +2453,6 @@ checksum = "dc33ff2d4973d518d823d61aa239014831e521c75da58e3df4840d3f47749d09"
 [[package]]
 name = "raiko-pipeline"
 version = "0.1.0"
-source = "git+https://github.com/taikoxyz/raiko.git#1e2a2541111d70352aaefc4c629f9daea58ce6e4"
 dependencies = [
  "anyhow",
  "cargo_metadata 0.12.3",
@@ -2441,9 +2523,9 @@ dependencies = [
 
 [[package]]
 name = "redox_syscall"
-version = "0.5.1"
+version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "469052894dcb553421e483e4209ee581a45100d31b4018de03e5a7ad86374a7e"
+checksum = "c82cf8cff14456045f55ec4241383baeff27af886adb72ffb2162f99911de0fd"
 dependencies = [
  "bitflags 2.5.0",
 ]
@@ -2461,14 +2543,14 @@ dependencies = [
 
 [[package]]
 name = "regex"
-version = "1.10.4"
+version = "1.10.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c117dbdfde9c8308975b6a18d71f3f385c89461f7b3fb054288ecf2a2058ba4c"
+checksum = "b91213439dad192326a0d7c6ee3955910425f441d7038e0d6933b0aec5c4517f"
 dependencies = [
  "aho-corasick",
  "memchr",
- "regex-automata 0.4.6",
- "regex-syntax 0.8.3",
+ "regex-automata 0.4.7",
+ "regex-syntax 0.8.4",
 ]
 
 [[package]]
@@ -2482,13 +2564,13 @@ dependencies = [
 
 [[package]]
 name = "regex-automata"
-version = "0.4.6"
+version = "0.4.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "86b83b8b9847f9bf95ef68afb0b8e6cdb80f498442f5179a29fad448fcc1eaea"
+checksum = "38caf58cc5ef2fed281f89292ef23f6365465ed9a41b7a7754eb4e26496c92df"
 dependencies = [
  "aho-corasick",
  "memchr",
- "regex-syntax 0.8.3",
+ "regex-syntax 0.8.4",
 ]
 
 [[package]]
@@ -2499,9 +2581,9 @@ checksum = "f162c6dd7b008981e4d40210aca20b4bd0f9b60ca9271061b07f78537722f2e1"
 
 [[package]]
 name = "regex-syntax"
-version = "0.8.3"
+version = "0.8.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "adad44e29e4c806119491a7f06f03de4d1af22c3a680dd47f1e6e179439d1f56"
+checksum = "7a66a03ae7c801facd77a29370b4faec201768915ac14a721ba36f20bc9c209b"
 
 [[package]]
 name = "rend"
@@ -2526,7 +2608,7 @@ dependencies = [
  "h2",
  "http 0.2.12",
  "http-body 0.4.6",
- "hyper 0.14.28",
+ "hyper 0.14.29",
  "hyper-rustls 0.24.2",
  "ipnet",
  "js-sys",
@@ -2540,7 +2622,7 @@ dependencies = [
  "serde",
  "serde_json",
  "serde_urlencoded",
- "sync_wrapper",
+ "sync_wrapper 0.1.2",
  "system-configuration",
  "tokio",
  "tokio-rustls 0.24.1",
@@ -2555,9 +2637,9 @@ dependencies = [
 
 [[package]]
 name = "reqwest"
-version = "0.12.4"
+version = "0.12.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "566cafdd92868e0939d3fb961bd0dc25fcfaaed179291093b3d43e6b3150ea10"
+checksum = "c7d6d2a27d57148378eb5e111173f4276ad26340ecc5c49a4a2152167a2d6a37"
 dependencies = [
  "base64 0.22.1",
  "bytes",
@@ -2568,7 +2650,7 @@ dependencies = [
  "http-body 1.0.0",
  "http-body-util",
  "hyper 1.3.1",
- "hyper-rustls 0.26.0",
+ "hyper-rustls 0.27.2",
  "hyper-util",
  "ipnet",
  "js-sys",
@@ -2577,21 +2659,22 @@ dependencies = [
  "once_cell",
  "percent-encoding",
  "pin-project-lite",
- "rustls 0.22.4",
+ "quinn",
+ "rustls 0.23.10",
  "rustls-pemfile 2.1.2",
  "rustls-pki-types",
  "serde",
  "serde_json",
  "serde_urlencoded",
- "sync_wrapper",
+ "sync_wrapper 1.0.1",
  "tokio",
- "tokio-rustls 0.25.0",
+ "tokio-rustls 0.26.0",
  "tower-service",
  "url",
  "wasm-bindgen",
  "wasm-bindgen-futures",
  "web-sys",
- "webpki-roots 0.26.1",
+ "webpki-roots 0.26.3",
  "winreg 0.52.0",
 ]
 
@@ -2636,29 +2719,29 @@ dependencies = [
 
 [[package]]
 name = "risc0-binfmt"
-version = "1.0.0-rc.6"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+version = "1.1.0-alpha.1"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "anyhow",
  "elf",
- "risc0-zkp 1.0.0-rc.6",
- "risc0-zkvm-platform 1.0.0-rc.6",
+ "risc0-zkp 1.1.0-alpha.1",
+ "risc0-zkvm-platform 1.1.0-alpha.1",
  "serde",
  "tracing",
 ]
 
 [[package]]
 name = "risc0-build"
-version = "1.0.0-rc.6"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+version = "1.1.0-alpha.1"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "anyhow",
  "cargo_metadata 0.18.1",
  "dirs",
  "docker-generate",
- "risc0-binfmt 1.0.0-rc.6",
- "risc0-zkp 1.0.0-rc.6",
- "risc0-zkvm-platform 1.0.0-rc.6",
+ "risc0-binfmt 1.1.0-alpha.1",
+ "risc0-zkp 1.1.0-alpha.1",
+ "risc0-zkvm-platform 1.1.0-alpha.1",
  "serde",
  "serde_json",
  "tempfile",
@@ -2666,8 +2749,8 @@ dependencies = [
 
 [[package]]
 name = "risc0-build-kernel"
-version = "1.0.0-rc.6"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+version = "1.1.0-alpha.1"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "cc",
  "directories",
@@ -2681,20 +2764,23 @@ dependencies = [
 
 [[package]]
 name = "risc0-circuit-recursion"
-version = "1.0.0-rc.6"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+version = "1.1.0-alpha.1"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "anyhow",
  "bytemuck",
+ "cfg-if",
  "downloader",
  "hex",
+ "lazy-regex",
  "nvtx",
  "rand",
  "rayon",
  "risc0-circuit-recursion-sys",
- "risc0-core 1.0.0-rc.6",
+ "risc0-core 1.1.0-alpha.1",
  "risc0-sys",
- "risc0-zkp 1.0.0-rc.6",
+ "risc0-zkp 1.1.0-alpha.1",
+ "serde",
  "sha2",
  "tracing",
  "zip",
@@ -2702,19 +2788,19 @@ dependencies = [
 
 [[package]]
 name = "risc0-circuit-recursion-sys"
-version = "1.0.0-rc.6"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+version = "1.1.0-alpha.1"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "glob",
  "risc0-build-kernel",
- "risc0-core 1.0.0-rc.6",
+ "risc0-core 1.1.0-alpha.1",
  "risc0-sys",
 ]
 
 [[package]]
 name = "risc0-circuit-rv32im"
-version = "1.0.0-rc.6"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+version = "1.1.0-alpha.1"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "anyhow",
  "bytemuck",
@@ -2726,12 +2812,12 @@ dependencies = [
  "nvtx",
  "rand",
  "rayon",
- "risc0-binfmt 1.0.0-rc.6",
+ "risc0-binfmt 1.1.0-alpha.1",
  "risc0-circuit-rv32im-sys",
- "risc0-core 1.0.0-rc.6",
+ "risc0-core 1.1.0-alpha.1",
  "risc0-sys",
- "risc0-zkp 1.0.0-rc.6",
- "risc0-zkvm-platform 1.0.0-rc.6",
+ "risc0-zkp 1.1.0-alpha.1",
+ "risc0-zkvm-platform 1.1.0-alpha.1",
  "serde",
  "sha2",
  "tracing",
@@ -2739,12 +2825,12 @@ dependencies = [
 
 [[package]]
 name = "risc0-circuit-rv32im-sys"
-version = "1.0.0-rc.6"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+version = "1.1.0-alpha.1"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "glob",
  "risc0-build-kernel",
- "risc0-core 1.0.0-rc.6",
+ "risc0-core 1.1.0-alpha.1",
  "risc0-sys",
 ]
 
@@ -2760,8 +2846,8 @@ dependencies = [
 
 [[package]]
 name = "risc0-core"
-version = "1.0.0-rc.6"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+version = "1.1.0-alpha.1"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "bytemuck",
  "rand_core",
@@ -2769,8 +2855,8 @@ dependencies = [
 
 [[package]]
 name = "risc0-groth16"
-version = "1.0.0-rc.6"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+version = "1.1.0-alpha.1"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "anyhow",
  "ark-bn254",
@@ -2781,9 +2867,9 @@ dependencies = [
  "hex",
  "num-bigint 0.4.5",
  "num-traits",
- "risc0-binfmt 1.0.0-rc.6",
- "risc0-core 1.0.0-rc.6",
- "risc0-zkp 1.0.0-rc.6",
+ "risc0-binfmt 1.1.0-alpha.1",
+ "risc0-core 1.1.0-alpha.1",
+ "risc0-zkp 1.1.0-alpha.1",
  "serde",
  "serde_json",
  "tempfile",
@@ -2792,8 +2878,8 @@ dependencies = [
 
 [[package]]
 name = "risc0-sys"
-version = "1.0.0-rc.6"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+version = "1.1.0-alpha.1"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "cc",
  "risc0-build-kernel",
@@ -2821,8 +2907,8 @@ dependencies = [
 
 [[package]]
 name = "risc0-zkp"
-version = "1.0.0-rc.6"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+version = "1.1.0-alpha.1"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "anyhow",
  "blake2",
@@ -2839,9 +2925,9 @@ dependencies = [
  "rand",
  "rand_core",
  "rayon",
- "risc0-core 1.0.0-rc.6",
+ "risc0-core 1.1.0-alpha.1",
  "risc0-sys",
- "risc0-zkvm-platform 1.0.0-rc.6",
+ "risc0-zkvm-platform 1.1.0-alpha.1",
  "serde",
  "sha2",
  "tracing",
@@ -2849,8 +2935,8 @@ dependencies = [
 
 [[package]]
 name = "risc0-zkvm"
-version = "1.0.0-rc.6"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+version = "1.1.0-alpha.1"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "addr2line",
  "anyhow",
@@ -2867,13 +2953,13 @@ dependencies = [
  "prost",
  "rand",
  "rayon",
- "risc0-binfmt 1.0.0-rc.6",
+ "risc0-binfmt 1.1.0-alpha.1",
  "risc0-circuit-recursion",
  "risc0-circuit-rv32im",
- "risc0-core 1.0.0-rc.6",
+ "risc0-core 1.1.0-alpha.1",
  "risc0-groth16",
- "risc0-zkp 1.0.0-rc.6",
- "risc0-zkvm-platform 1.0.0-rc.6",
+ "risc0-zkp 1.1.0-alpha.1",
+ "risc0-zkvm-platform 1.1.0-alpha.1",
  "rrs-lib",
  "rustc-demangle",
  "semver 1.0.23",
@@ -2892,8 +2978,8 @@ checksum = "03b6378c9e407be18a1560ed030fd87fb6056293c56263efac46c507ae97e0d7"
 
 [[package]]
 name = "risc0-zkvm-platform"
-version = "1.0.0-rc.6"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+version = "1.1.0-alpha.1"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "bytemuck",
  "getrandom",
@@ -2994,6 +3080,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "719b953e2095829ee67db738b3bfa9fa368c94900df327b3f07fe6e794d2fe1f"
 
 [[package]]
+name = "rustc-hash"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "08d43f7aa6b08d49f382cde6a7982047c3426db949b1424bc4b7ec9ae12c6ce2"
+
+[[package]]
 name = "rustc_version"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3029,11 +3121,11 @@ dependencies = [
 
 [[package]]
 name = "rustls"
-version = "0.22.4"
+version = "0.23.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bf4ef73721ac7bcd79b2b315da7779d8fc09718c6b3d2d1b2d94850eb8c18432"
+checksum = "05cff451f60db80f490f3c182b77c35260baace73209e9cdbbe526bfe3a4d402"
 dependencies = [
- "log",
+ "once_cell",
  "ring",
  "rustls-pki-types",
  "rustls-webpki 0.102.4",
@@ -3225,7 +3317,7 @@ dependencies = [
 [[package]]
 name = "sha-methods"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "risc0-build",
 ]
@@ -3305,7 +3397,7 @@ dependencies = [
 [[package]]
 name = "smartcore-ml-methods"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "risc0-build",
 ]
@@ -3359,9 +3451,9 @@ checksum = "7da8b5736845d9f2fcb837ea5d9e2628564b3b043a70948a3f0b778838c5fb4f"
 
 [[package]]
 name = "subtle"
-version = "2.5.0"
+version = "2.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "81cdd64d312baedb58e21336b31bc043b77e01cc99033ce76ef539f78e965ebc"
+checksum = "0d0208408ba0c3df17ed26eb06992cb1a1268d41b2c0e12e65203fbe3972cee5"
 
 [[package]]
 name = "syn"
@@ -3413,6 +3505,12 @@ name = "sync_wrapper"
 version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2047c6ded9c721764247e62cd3b03c09ffc529b2ba5b10ec482ae507a4a70160"
+
+[[package]]
+name = "sync_wrapper"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a7065abeca94b6a8a577f9bd45aa0867a2238b74e8eb67cf10d492bc39351394"
 
 [[package]]
 name = "synom"
@@ -3493,6 +3591,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "threadpool"
+version = "1.8.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d050e60b33d41c19108b32cea32164033a9013fe3b46cbd4457559bfbf77afaa"
+dependencies = [
+ "num_cpus",
+]
+
+[[package]]
 name = "tiff"
 version = "0.9.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3520,9 +3627,9 @@ checksum = "1f3ccbac311fea05f86f61904b462b55fb3df8837a366dfc601a0161d0532f20"
 
 [[package]]
 name = "tokio"
-version = "1.37.0"
+version = "1.38.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1adbebffeca75fcfd058afa480fb6c0b81e165a0323f9c9d39c9697e37c46787"
+checksum = "ba4f4a02a7a80d6f274636f0aa95c7e383b912d41fe721a31f29e29698585a4a"
 dependencies = [
  "backtrace",
  "bytes",
@@ -3546,11 +3653,11 @@ dependencies = [
 
 [[package]]
 name = "tokio-rustls"
-version = "0.25.0"
+version = "0.26.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "775e0c0f0adb3a2f22a00c4745d728b479985fc15ee7ca6a2608388c5569860f"
+checksum = "0c7bc40d0e5a97695bb96e27995cd3a08538541b0a846f65bba7a359f36700d4"
 dependencies = [
- "rustls 0.22.4",
+ "rustls 0.23.10",
  "rustls-pki-types",
  "tokio",
 ]
@@ -3764,9 +3871,9 @@ dependencies = [
 
 [[package]]
 name = "unicode-width"
-version = "0.1.12"
+version = "0.1.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "68f5e5f3158ecfd4b8ff6fe086db7c8467a2dfdac97fe420f2b7c4aa97af66d6"
+checksum = "0336d538f7abc86d282a4189614dfaa90810dfc2c6f6427eaf88e16311dd225d"
 
 [[package]]
 name = "unicode-xid"
@@ -3782,9 +3889,9 @@ checksum = "8ecb6da28b8a351d773b68d5825ac39017e680750f980f3a1a85cd8dd28a47c1"
 
 [[package]]
 name = "url"
-version = "2.5.0"
+version = "2.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "31e6302e3bb753d46e83516cae55ae196fc0c309407cf11ab35cc51a4c2a4633"
+checksum = "22784dbdf76fdde8af1aeda5622b546b422b6fc585325248a2bf9f5e41e94d6c"
 dependencies = [
  "form_urlencoded",
  "idna",
@@ -3793,9 +3900,9 @@ dependencies = [
 
 [[package]]
 name = "utf8parse"
-version = "0.2.1"
+version = "0.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "711b9620af191e0cdc7468a8d14e709c3dcdb115b36f838e601583af800a370a"
+checksum = "06abde3611657adf66d383f00b093d7faecc7fa57071cce2578660c9f1010821"
 
 [[package]]
 name = "uuid"
@@ -3818,7 +3925,7 @@ checksum = "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f"
 [[package]]
 name = "waldo-core"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "bincode",
  "divrem",
@@ -3833,7 +3940,7 @@ dependencies = [
 [[package]]
 name = "waldo-methods"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "risc0-build",
 ]
@@ -3921,9 +4028,9 @@ checksum = "af190c94f2773fdb3729c55b007a722abb5384da03bc0986df4c289bf5567e96"
 
 [[package]]
 name = "wasm-encoder"
-version = "0.209.1"
+version = "0.211.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7b4a05336882dae732ce6bd48b7e11fe597293cb72c13da4f35d7d5f8d53b2a7"
+checksum = "5e7d931a1120ef357f32b74547646b6fa68ea25e377772b72874b131a9ed70d4"
 dependencies = [
  "leb128",
 ]
@@ -3931,16 +4038,16 @@ dependencies = [
 [[package]]
 name = "wasm-methods"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "risc0-build",
 ]
 
 [[package]]
 name = "wast"
-version = "209.0.1"
+version = "211.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8fffef2ff6147e4d12e972765fd75332c6a11c722571d4ab7a780d81ffc8f0a4"
+checksum = "b25506dd82d00da6b14a87436b3d52b1d264083fa79cdb72a0d1b04a8595ccaa"
 dependencies = [
  "bumpalo",
  "leb128",
@@ -3951,9 +4058,9 @@ dependencies = [
 
 [[package]]
 name = "wat"
-version = "1.209.1"
+version = "1.211.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "42203ec0271d113f8eb1f77ebc624886530cecb35915a7f63a497131f16e4d24"
+checksum = "eb716ca6c86eecac2d82541ffc39860118fc0af9309c4f2670637bea2e1bdd7d"
 dependencies = [
  "wast",
 ]
@@ -3976,9 +4083,9 @@ checksum = "5f20c57d8d7db6d3b86154206ae5d8fba62dd39573114de97c2cb0578251f8e1"
 
 [[package]]
 name = "webpki-roots"
-version = "0.26.1"
+version = "0.26.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b3de34ae270483955a94f4b21bdaaeb83d508bb84a01435f393818edb0012009"
+checksum = "bd7c23921eeb1713a4e851530e9b9756e4fb0e89978582942612524cf09f01cd"
 dependencies = [
  "rustls-pki-types",
 ]
@@ -4200,7 +4307,7 @@ checksum = "d135d17ab770252ad95e9a872d365cf3090e3be864a34ab46f48555993efc904"
 [[package]]
 name = "wordle-methods"
 version = "0.1.0"
-source = "git+https://github.com/risc0/risc0.git#5dddcc7846d482b6d92ca2c0217b84c4d8ca4b39"
+source = "git+https://github.com/risc0/risc0.git#07e8d682af73bff0905eca31565824d2326200d7"
 dependencies = [
  "risc0-build",
 ]
@@ -4256,9 +4363,9 @@ dependencies = [
 
 [[package]]
 name = "zip"
-version = "2.1.1"
+version = "2.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1dd56a4d5921bc2f99947ac5b3abe5f510b1be7376fdc5e9fce4a23c6a93e87c"
+checksum = "775a2b471036342aa69bc5a602bc889cb0a06cda00477d0c69566757d5553d39"
 dependencies = [
  "arbitrary",
  "crc32fast",
